@@ -1,0 +1,596 @@
+Tottawa311
+v7
+r0
+t290231240.968056
+cCheck dependencies
+cCpResource build/Debug-iphoneos/ottawa311.app/ResourceRules.plist /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.sdk/ResourceRules.plist
+cProcessInfoPlistFile /Users/tajima/projects/ottawa311/build/iphone/build/Debug-iphoneos/ottawa311.app/Info.plist Info.plist
+cPhaseScriptExecution "Run Script" /Users/tajima/projects/ottawa311/build/iphone/build/ottawa311.build/Debug-iphoneos/ottawa311.build/Script-B4EA72B50FBC96AA005AA7FB.sh
+cCompileXIB /Users/tajima/projects/ottawa311/build/iphone/Resources/MainWindow.xib
+cCopyPNGFile /Users/tajima/projects/ottawa311/build/iphone/build/Debug-iphoneos/ottawa311.app/Default.png Resources/Default.png
+cCopyPlistFile /Users/tajima/projects/ottawa311/build/iphone/build/Debug-iphoneos/ottawa311.app/Entitlements.plist Resources/Entitlements.plist
+cProcessPCH /var/folders/gQ/gQsIVJLSFx42UneCFLhNO++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ottawa311_Prefix-ezfdqcbfnwejyxdlzmvcrwgwhabr/ottawa311_Prefix.pch.gch ottawa311_Prefix.pch normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/ottawa311.build/Debug-iphoneos/ottawa311.build/Objects-normal/armv6/main.o /Users/tajima/projects/ottawa311/build/iphone/main.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/ottawa311.build/Debug-iphoneos/ottawa311.build/Objects-normal/armv6/ApplicationRouting.o /Users/tajima/projects/ottawa311/build/iphone/Classes/ApplicationRouting.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cLd /Users/tajima/projects/ottawa311/build/iphone/build/Debug-iphoneos/ottawa311.app/ottawa311 normal armv6
+cGenerateDSYMFile /Users/tajima/projects/ottawa311/build/iphone/build/Debug-iphoneos/ottawa311.app.dSYM /Users/tajima/projects/ottawa311/build/iphone/build/Debug-iphoneos/ottawa311.app/ottawa311
+cProcessProductPackaging "/Users/tajima/Library/MobileDevice/Provisioning Profiles/4E458C66-D8CD-43E2-A3F9-712D09217A3F.mobileprovision" /Users/tajima/projects/ottawa311/build/iphone/build/Debug-iphoneos/ottawa311.app/embedded.mobileprovision
+cTouch /Users/tajima/projects/ottawa311/build/iphone/build/Debug-iphoneos/ottawa311.app
+cProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.sdk/Entitlements.plist /Users/tajima/projects/ottawa311/build/iphone/build/ottawa311.build/Debug-iphoneos/ottawa311.build/ottawa311.xcent
+cCodeSign /Users/tajima/projects/ottawa311/build/iphone/build/Debug-iphoneos/ottawa311.app
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.sdk
+c000000004B2B3BC90000000000000110
+t1261124553
+s272
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.sdk/Entitlements.plist
+c000000004A767D3000000000000000DD
+t1249279280
+s221
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.sdk/ResourceRules.plist
+c000000004A767D3000000000000001E5
+t1249279280
+s485
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.sdk/System/Library/Frameworks/AVFoundation.framework/AVFoundation
+c000000004A76573E000000000001AD10
+t1249269566
+s109840
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.sdk/System/Library/Frameworks/AddressBook.framework/AddressBook
+c000000004A765F6E000000000009D700
+t1249271662
+s644864
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.sdk/System/Library/Frameworks/AddressBookUI.framework/AddressBookUI
+c000000004A89EA81000000000017AB40
+t1250552449
+s1551168
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.sdk/System/Library/Frameworks/AudioToolbox.framework/AudioToolbox
+c000000004A76555800000000002E0B30
+t1249269080
+s3017520
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.sdk/System/Library/Frameworks/CFNetwork.framework/CFNetwork
+c000000004A7655EA0000000000290670
+t1249269226
+s2688624
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004A82198D00000000005F4900
+t1250040205
+s6244608
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.sdk/System/Library/Frameworks/CoreLocation.framework/CoreLocation
+c000000004A77B0F20000000000085550
+t1249358066
+s546128
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004A76566F0000000000501370
+t1249269359
+s5247856
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004A7656460000000000001355
+t1249269318
+s4949
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.sdk/System/Library/Frameworks/MapKit.framework/MapKit
+c000000004A7CC3EF00000000001CD6E0
+t1249690607
+s1890016
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.sdk/System/Library/Frameworks/MediaPlayer.framework/MediaPlayer
+c000000004A860FF40000000000178100
+t1250299892
+s1540352
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.sdk/System/Library/Frameworks/MessageUI.framework/MessageUI
+c000000004A76680600000000000C32C0
+t1249273862
+s799424
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.sdk/System/Library/Frameworks/MobileCoreServices.framework/MobileCoreServices
+c000000004A7656E70000000000026020
+t1249269479
+s155680
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.sdk/System/Library/Frameworks/OpenGLES.framework/OpenGLES
+c000000004A765807000000000003C1A0
+t1249269767
+s246176
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.sdk/System/Library/Frameworks/SystemConfiguration.framework/SystemConfiguration
+c000000004A7654FE00000000000D7460
+t1249268990
+s881760
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004A7C6E9C0000000000000788
+t1249668764
+s1928
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004A7C6FEF0000000001B3F450
+t1249669103
+s28570704
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.sdk/usr/lib/libicucore.dylib
+c000000004A7652040000000000C0E640
+t1249268228
+s12641856
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.sdk/usr/lib/libsqlite3.dylib
+c000000004A765038000000000010BF50
+t1249267768
+s1097552
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.sdk/usr/lib/libxml2.dylib
+c000000004A76533D00000000002FB320
+t1249268541
+s3126048
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.sdk/usr/lib/libz.dylib
+c000000004A764E8E00000000000335C0
+t1249267342
+s210368
+
+N/System/Library/Frameworks/QuartzCore.framework/QuartzCore
+c000000004A67D2580000000000CF0BE0
+t1248318040
+s13568992
+
+N/Users/tajima/Library/MobileDevice/Provisioning Profiles/4E458C66-D8CD-43E2-A3F9-712D09217A3F.mobileprovision
+c000000004B9325020000000000001BF7
+t1267934466
+s7159
+
+N/Users/tajima/projects/ottawa311/build/iphone/Classes/ApplicationRouting.h
+c000000004B9C5C39000000000000014D
+t1268538425
+s333
+i<Foundation/Foundation.h>
+
+N/Users/tajima/projects/ottawa311/build/iphone/Classes/ApplicationRouting.m
+c000000004B9C5C390000000000002D97
+t1268538425
+s11671
+i<Foundation/Foundation.h>
+i"ApplicationRouting.h"
+
+N/Users/tajima/projects/ottawa311/build/iphone/Resources/Default.png
+c000000004B9C5C390000000000021141
+t1268538425
+s135489
+
+N/Users/tajima/projects/ottawa311/build/iphone/Resources/Entitlements.plist
+c000000004B9851B900000000000000E1
+t1268273593
+s225
+
+N/Users/tajima/projects/ottawa311/build/iphone/Resources/MainWindow.xib
+c000000004B9851B80000000000003AF8
+t1268273592
+s15096
+
+N/Users/tajima/projects/ottawa311/build/iphone/Resources/libTiCore.a
+c000000004B985650000000000C68DFE4
+t1268274768
+s208199652
+
+N/Users/tajima/projects/ottawa311/build/iphone/Resources/libTitanium.a
+c000000004B9C5C390000000000873C70
+t1268538425
+s8862832
+
+N/Users/tajima/projects/ottawa311/build/iphone/build/Debug-iphoneos/ottawa311.app
+t1268538440
+s578
+
+N/Users/tajima/projects/ottawa311/build/iphone/build/Debug-iphoneos/ottawa311.app.dSYM
+t1268538439
+s102
+
+N/Users/tajima/projects/ottawa311/build/iphone/build/Debug-iphoneos/ottawa311.app/Default.png
+t1268538432
+s149475
+
+N/Users/tajima/projects/ottawa311/build/iphone/build/Debug-iphoneos/ottawa311.app/Entitlements.plist
+t1268538431
+s62
+
+N/Users/tajima/projects/ottawa311/build/iphone/build/Debug-iphoneos/ottawa311.app/Info.plist
+t1268538429
+s715
+
+N/Users/tajima/projects/ottawa311/build/iphone/build/Debug-iphoneos/ottawa311.app/MainWindow.nib
+t1268538431
+s958
+
+N/Users/tajima/projects/ottawa311/build/iphone/build/Debug-iphoneos/ottawa311.app/PkgInfo
+t1268538428
+s8
+
+N/Users/tajima/projects/ottawa311/build/iphone/build/Debug-iphoneos/ottawa311.app/ResourceRules.plist
+t1268538429
+s150
+
+N/Users/tajima/projects/ottawa311/build/iphone/build/Debug-iphoneos/ottawa311.app/embedded.mobileprovision
+t1268538439
+s7159
+
+N/Users/tajima/projects/ottawa311/build/iphone/build/Debug-iphoneos/ottawa311.app/ottawa311
+t1268538436
+s2369944
+
+N/Users/tajima/projects/ottawa311/build/iphone/build/ottawa311.build/Debug-iphoneos/ottawa311.build/Objects-normal/armv6/ApplicationRouting.o
+t1268538432
+s19984
+
+N/Users/tajima/projects/ottawa311/build/iphone/build/ottawa311.build/Debug-iphoneos/ottawa311.build/Objects-normal/armv6/main.o
+t1268538432
+s8344
+
+N/Users/tajima/projects/ottawa311/build/iphone/build/ottawa311.build/Debug-iphoneos/ottawa311.build/Objects-normal/armv6/ottawa311.LinkFileList
+c000000004B9BFFB8000000000000010C
+t1268514744
+s268
+
+N/Users/tajima/projects/ottawa311/build/iphone/build/ottawa311.build/Debug-iphoneos/ottawa311.build/Script-B4EA72B50FBC96AA005AA7FB.sh
+c000000004B9BFFB8000000000000028F
+t1268514744
+s655
+
+N/Users/tajima/projects/ottawa311/build/iphone/build/ottawa311.build/Debug-iphoneos/ottawa311.build/ottawa311.xcent
+t1268538439
+s306
+
+N/Users/tajima/projects/ottawa311/build/iphone/main.m
+c000000004B9C5C390000000000000577
+t1268538425
+s1399
+i<UIKit/UIKit.h>
+
+N/Users/tajima/projects/ottawa311/build/iphone/ottawa311_Prefix.pch
+c000000004B9851B90000000000000086
+t1268273593
+s134
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/var/folders/gQ/gQsIVJLSFx42UneCFLhNO++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ottawa311_Prefix-ezfdqcbfnwejyxdlzmvcrwgwhabr/ottawa311_Prefix.pch.gch
+t1268514747
+s7876792
+
+NInfo.plist
+c000000004B9C5C3900000000000003D0
+t1268538425
+s976
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies290231226#290231228#0(0"0(0#1#0"5642802664050018304#0"0#
+
+CCodeSign /Users/tajima/projects/ottawa311/build/iphone/build/Debug-iphoneos/ottawa311.app
+s290231239.930068
+e290231240.967784
+r1
+xCodeSign
+x/Users/tajima/projects/ottawa311/build/iphone/build/Debug-iphoneos/ottawa311.app
+lSLF07#2@43"CodeSign build/Debug-iphoneos/ottawa311.app290231239#290231240#0(0"0(0#0#80"/Users/tajima/projects/ottawa311/build/iphone/build/Debug-iphoneos/ottawa311.app4301200840#683"    cd /Users/tajima/projects/ottawa311/build/iphone    setenv CODESIGN_ALLOCATE /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/codesign_allocate    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/codesign -f -s "iPhone Developer: John Tajima (E36L8ZQAV9)" --resource-rules=/Users/tajima/projects/ottawa311/build/iphone/build/Debug-iphoneos/ottawa311.app/ResourceRules.plist --entitlements /Users/tajima/projects/ottawa311/build/iphone/build/ottawa311.build/Debug-iphoneos/ottawa311.build/ottawa311.xcent /Users/tajima/projects/ottawa311/build/iphone/build/Debug-iphoneos/ottawa311.app0#
+
+CCompileC build/ottawa311.build/Debug-iphoneos/ottawa311.build/Objects-normal/armv6/ApplicationRouting.o /Users/tajima/projects/ottawa311/build/iphone/Classes/ApplicationRouting.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s290231232.328435
+e290231232.967895
+r1
+xCompileC
+xbuild/ottawa311.build/Debug-iphoneos/ottawa311.build/Objects-normal/armv6/ApplicationRouting.o
+x/Users/tajima/projects/ottawa311/build/iphone/Classes/ApplicationRouting.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@82"Compile /Users/tajima/projects/ottawa311/build/iphone/Classes/ApplicationRouting.m290231232#290231232#0(0"0(0#0#74"/Users/tajima/projects/ottawa311/build/iphone/Classes/ApplicationRouting.m4301200840#1895"    cd /Users/tajima/projects/ottawa311/build/iphone    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -DDEPLOYTYPE=test -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1 -iquote /Users/tajima/projects/ottawa311/build/iphone/build/ottawa311.build/Debug-iphoneos/ottawa311.build/ottawa311-generated-files.hmap -I/Users/tajima/projects/ottawa311/build/iphone/build/ottawa311.build/Debug-iphoneos/ottawa311.build/ottawa311-own-target-headers.hmap -I/Users/tajima/projects/ottawa311/build/iphone/build/ottawa311.build/Debug-iphoneos/ottawa311.build/ottawa311-all-target-headers.hmap -iquote /Users/tajima/projects/ottawa311/build/iphone/build/ottawa311.build/Debug-iphoneos/ottawa311.build/ottawa311-project-headers.hmap -F/Users/tajima/projects/ottawa311/build/iphone/build/Debug-iphoneos -I/Users/tajima/projects/ottawa311/build/iphone/build/Debug-iphoneos/include -I/Users/tajima/projects/ottawa311/build/iphone/build/ottawa311.build/Debug-iphoneos/ottawa311.build/DerivedSources/armv6 -I/Users/tajima/projects/ottawa311/build/iphone/build/ottawa311.build/Debug-iphoneos/ottawa311.build/DerivedSources -include /var/folders/gQ/gQsIVJLSFx42UneCFLhNO++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ottawa311_Prefix-ezfdqcbfnwejyxdlzmvcrwgwhabr/ottawa311_Prefix.pch -c /Users/tajima/projects/ottawa311/build/iphone/Classes/ApplicationRouting.m -o /Users/tajima/projects/ottawa311/build/iphone/build/ottawa311.build/Debug-iphoneos/ottawa311.build/Objects-normal/armv6/ApplicationRouting.o0#
+
+CCompileC build/ottawa311.build/Debug-iphoneos/ottawa311.build/Objects-normal/armv6/main.o /Users/tajima/projects/ottawa311/build/iphone/main.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s290231232.327311
+e290231232.970458
+r1
+xCompileC
+xbuild/ottawa311.build/Debug-iphoneos/ottawa311.build/Objects-normal/armv6/main.o
+x/Users/tajima/projects/ottawa311/build/iphone/main.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@60"Compile /Users/tajima/projects/ottawa311/build/iphone/main.m290231232#290231232#0(0"0(0#0#52"/Users/tajima/projects/ottawa311/build/iphone/main.m4301200840#1859"    cd /Users/tajima/projects/ottawa311/build/iphone    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -DDEPLOYTYPE=test -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1 -iquote /Users/tajima/projects/ottawa311/build/iphone/build/ottawa311.build/Debug-iphoneos/ottawa311.build/ottawa311-generated-files.hmap -I/Users/tajima/projects/ottawa311/build/iphone/build/ottawa311.build/Debug-iphoneos/ottawa311.build/ottawa311-own-target-headers.hmap -I/Users/tajima/projects/ottawa311/build/iphone/build/ottawa311.build/Debug-iphoneos/ottawa311.build/ottawa311-all-target-headers.hmap -iquote /Users/tajima/projects/ottawa311/build/iphone/build/ottawa311.build/Debug-iphoneos/ottawa311.build/ottawa311-project-headers.hmap -F/Users/tajima/projects/ottawa311/build/iphone/build/Debug-iphoneos -I/Users/tajima/projects/ottawa311/build/iphone/build/Debug-iphoneos/include -I/Users/tajima/projects/ottawa311/build/iphone/build/ottawa311.build/Debug-iphoneos/ottawa311.build/DerivedSources/armv6 -I/Users/tajima/projects/ottawa311/build/iphone/build/ottawa311.build/Debug-iphoneos/ottawa311.build/DerivedSources -include /var/folders/gQ/gQsIVJLSFx42UneCFLhNO++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ottawa311_Prefix-ezfdqcbfnwejyxdlzmvcrwgwhabr/ottawa311_Prefix.pch -c /Users/tajima/projects/ottawa311/build/iphone/main.m -o /Users/tajima/projects/ottawa311/build/iphone/build/ottawa311.build/Debug-iphoneos/ottawa311.build/Objects-normal/armv6/main.o0#
+
+CCompileXIB /Users/tajima/projects/ottawa311/build/iphone/Resources/MainWindow.xib
+s290231230.763033
+e290231231.298643
+r1
+xCompileXIB
+x/Users/tajima/projects/ottawa311/build/iphone/Resources/MainWindow.xib
+lSLF07#2@35"CompileXIB Resources/MainWindow.xib290231230#290231231#0(0"0(0#0#70"/Users/tajima/projects/ottawa311/build/iphone/Resources/MainWindow.xib32088628384432224#499"    cd /Users/tajima/projects/ottawa311/build/iphone    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.1    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/tajima/projects/ottawa311/build/iphone/build/Debug-iphoneos/ottawa311.app/MainWindow.nib /Users/tajima/projects/ottawa311/build/iphone/Resources/MainWindow.xib0#
+
+CCopyPNGFile /Users/tajima/projects/ottawa311/build/iphone/build/Debug-iphoneos/ottawa311.app/Default.png Resources/Default.png
+s290231230.764538
+e290231232.326682
+r1
+xCopyPNGFile
+x/Users/tajima/projects/ottawa311/build/iphone/build/Debug-iphoneos/ottawa311.app/Default.png
+xResources/Default.png
+lSLF07#2@80"CopyPNGFile build/Debug-iphoneos/ottawa311.app/Default.png Resources/Default.png290231230#290231232#0(0"0(0#0#67"/Users/tajima/projects/ottawa311/build/iphone/Resources/Default.png4301200840#595"    cd /Users/tajima/projects/ottawa311/build/iphone    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/tajima/projects/ottawa311/build/iphone/Resources/Default.png /Users/tajima/projects/ottawa311/build/iphone/build/Debug-iphoneos/ottawa311.app/Default.png0#
+
+CCopyPlistFile /Users/tajima/projects/ottawa311/build/iphone/build/Debug-iphoneos/ottawa311.app/Entitlements.plist Resources/Entitlements.plist
+s290231231.298863
+e290231231.345870
+r1
+xCopyPlistFile
+x/Users/tajima/projects/ottawa311/build/iphone/build/Debug-iphoneos/ottawa311.app/Entitlements.plist
+xResources/Entitlements.plist
+lSLF07#2@33"Copy Resources/Entitlements.plist290231231#290231231#0(0"0(0#0#74"/Users/tajima/projects/ottawa311/build/iphone/Resources/Entitlements.plist4301200840#405"    cd /Users/tajima/projects/ottawa311/build/iphone    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copyplist --convert binary1 Resources/Entitlements.plist --outdir /Users/tajima/projects/ottawa311/build/iphone/build/Debug-iphoneos/ottawa311.app0#
+
+CCpResource build/Debug-iphoneos/ottawa311.app/ResourceRules.plist /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.sdk/ResourceRules.plist
+s290231228.917159
+e290231228.965486
+r1
+xCpResource
+xbuild/Debug-iphoneos/ottawa311.app/ResourceRules.plist
+x/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.sdk/ResourceRules.plist
+lSLF07#2@94"Copy /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.sdk/ResourceRules.plist290231228#290231228#0(0"0(0#0#89"/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.sdk/ResourceRules.plist8028903794874265600#496"    cd /Users/tajima/projects/ottawa311/build/iphone    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.sdk/ResourceRules.plist /Users/tajima/projects/ottawa311/build/iphone/build/Debug-iphoneos/ottawa311.app0#
+
+CGenerateDSYMFile /Users/tajima/projects/ottawa311/build/iphone/build/Debug-iphoneos/ottawa311.app.dSYM /Users/tajima/projects/ottawa311/build/iphone/build/Debug-iphoneos/ottawa311.app/ottawa311
+s290231236.536801
+e290231239.867252
+r1
+xGenerateDSYMFile
+x/Users/tajima/projects/ottawa311/build/iphone/build/Debug-iphoneos/ottawa311.app.dSYM
+x/Users/tajima/projects/ottawa311/build/iphone/build/Debug-iphoneos/ottawa311.app/ottawa311
+lSLF07#2@101"GenerateDSYMFile build/Debug-iphoneos/ottawa311.app.dSYM build/Debug-iphoneos/ottawa311.app/ottawa311290231236#290231239#0(0"0(0#0#90"/Users/tajima/projects/ottawa311/build/iphone/build/Debug-iphoneos/ottawa311.app/ottawa3114301200840#389"    cd /Users/tajima/projects/ottawa311/build/iphone    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/tajima/projects/ottawa311/build/iphone/build/Debug-iphoneos/ottawa311.app/ottawa311 -o /Users/tajima/projects/ottawa311/build/iphone/build/Debug-iphoneos/ottawa311.app.dSYM0#
+
+CLd /Users/tajima/projects/ottawa311/build/iphone/build/Debug-iphoneos/ottawa311.app/ottawa311 normal armv6
+s290231232.970577
+e290231236.536482
+r1
+xLd
+x/Users/tajima/projects/ottawa311/build/iphone/build/Debug-iphoneos/ottawa311.app/ottawa311
+xnormal
+xarmv6
+lSLF07#2@95"Link /Users/tajima/projects/ottawa311/build/iphone/build/Debug-iphoneos/ottawa311.app/ottawa311290231232#290231236#0(0"0(0#0#0"4301200840#1405"    cd /Users/tajima/projects/ottawa311/build/iphone    setenv IPHONEOS_DEPLOYMENT_TARGET 3.1    setenv MACOSX_DEPLOYMENT_TARGET 10.5    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -arch armv6 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.sdk -L/Users/tajima/projects/ottawa311/build/iphone/build/Debug-iphoneos -L/Users/tajima/projects/ottawa311/build/iphone -LResources -F/Users/tajima/projects/ottawa311/build/iphone/build/Debug-iphoneos -filelist /Users/tajima/projects/ottawa311/build/iphone/build/ottawa311.build/Debug-iphoneos/ottawa311.build/Objects-normal/armv6/ottawa311.LinkFileList -mmacosx-version-min=10.5 -dead_strip -framework Foundation -framework UIKit -ObjC -lstdc++ -miphoneos-version-min=3.1 -framework SystemConfiguration -framework AVFoundation -framework CoreLocation -lz -framework AudioToolbox -framework Foundation -framework UIKit -framework MediaPlayer -framework CoreGraphics -lTitanium -lsqlite3 -framework MessageUI -framework OpenGLES -framework QuartzCore -framework MapKit -framework AddressBook -framework AddressBookUI -framework CFNetwork -framework MobileCoreServices -lTiCore -licucore -lxml2 -o /Users/tajima/projects/ottawa311/build/iphone/build/Debug-iphoneos/ottawa311.app/ottawa3110#
+
+CPhaseScriptExecution "Run Script" /Users/tajima/projects/ottawa311/build/iphone/build/ottawa311.build/Debug-iphoneos/ottawa311.build/Script-B4EA72B50FBC96AA005AA7FB.sh
+s290231228.965686
+e290231230.761610
+r1
+xPhaseScriptExecution
+xRun Script
+x/Users/tajima/projects/ottawa311/build/iphone/build/ottawa311.build/Debug-iphoneos/ottawa311.build/Script-B4EA72B50FBC96AA005AA7FB.sh
+oiphoneos-optimize: Converting plists to binary in /Users/tajima/projects/ottawa311/build/iphone/build/Debug-iphoneos/ottawa311.app/
+oiphoneos-optimize: Converted to binary plist: /Users/tajima/projects/ottawa311/build/iphone/build/Debug-iphoneos/ottawa311.app/Info.plist
+oiphoneos-optimize: Converted to binary plist: /Users/tajima/projects/ottawa311/build/iphone/build/Debug-iphoneos/ottawa311.app/ResourceRules.plist
+oiphoneos-optimize: Optimizing PNGs in /Users/tajima/projects/ottawa311/build/iphone/build/Debug-iphoneos/ottawa311.app/
+o
+o | pngcrush 1.6.4
+o |    Copyright (C) 1998-2002,2006 Glenn Randers-Pehrson
+o |    Copyright (C) 2005      Greg Roelofs
+o | This is a free, open-source program.  Permission is irrevocably
+o | granted to everyone to use this version of pngcrush without
+o | payment of any fee.
+o | Executable name is pngcrush
+o | It was built with libpng version 1.2.7, and is
+o | running with  libpng version 1.2.7 - September 12, 2004 (header)
+o |    Copyright (C) 1998-2004,2006 Glenn Randers-Pehrson,
+o |    Copyright (C) 1996, 1997 Andreas Dilger,
+o |    Copyright (C) 1995, Guy Eric Schalnat, Group 42 Inc.,
+o | and zlib version 1.2.3, Copyright (C) 1998-2002 (or later),
+o |    Jean-loup Gailly and Mark Adler.
+o | It was compiled with gcc version 4.2.1 (Apple Inc.  build 5575) (dot 11).
+o
+o   Recompressing /Users/tajima/projects/ottawa311/build/iphone/build/Debug-iphoneos/ottawa311.app/appicon.png
+o   Total length of data found in IDAT chunks    =     4276
+o   IDAT length with method 120 (fm 1 zl 9 zs 1) =     4038
+o   Best pngcrush method = 120 (fm 1 zl 9 zs 1) for /Users/tajima/projects/ottawa311/build/iphone/build/Debug-iphoneos/ottawa311.app/appicon-pngcrush.png
+o     (5.57% IDAT reduction)
+o     (5.08% filesize reduction)
+o
+o   CPU time used = 0.010 seconds (decoding 0.001,
+o          encoding 0.006, other 0.004 seconds)
+o
+oiphoneos-optimize: Optimized PNG: /Users/tajima/projects/ottawa311/build/iphone/build/Debug-iphoneos/ottawa311.app/appicon.png
+o
+o | pngcrush 1.6.4
+o |    Copyright (C) 1998-2002,2006 Glenn Randers-Pehrson
+o |    Copyright (C) 2005      Greg Roelofs
+o | This is a free, open-source program.  Permission is irrevocably
+o | granted to everyone to use this version of pngcrush without
+o | payment of any fee.
+o | Executable name is pngcrush
+o | It was built with libpng version 1.2.7, and is
+o | running with  libpng version 1.2.7 - September 12, 2004 (header)
+o |    Copyright (C) 1998-2004,2006 Glenn Randers-Pehrson,
+o |    Copyright (C) 1996, 1997 Andreas Dilger,
+o |    Copyright (C) 1995, Guy Eric Schalnat, Group 42 Inc.,
+o | and zlib version 1.2.3, Copyright (C) 1998-2002 (or later),
+o |    Jean-loup Gailly and Mark Adler.
+o | It was compiled with gcc version 4.2.1 (Apple Inc.  build 5575) (dot 11).
+o
+o   Recompressing /Users/tajima/projects/ottawa311/build/iphone/build/Debug-iphoneos/ottawa311.app/Default.png
+o   Total length of data found in IDAT chunks    =   135395
+o   Adding an opaque alpha channel.
+o   IDAT length with method 120 (fm 1 zl 9 zs 1) =   149365
+o   Best pngcrush method = 120 (fm 1 zl 9 zs 1) for /Users/tajima/projects/ottawa311/build/iphone/build/Debug-iphoneos/ottawa311.app/Default-pngcrush.png
+o     (10.32% IDAT increase)
+o     (10.32% filesize increase)
+o
+o   CPU time used = 1.442 seconds (decoding 0.014,
+o          encoding 1.411, other 0.017 seconds)
+o
+oiphoneos-optimize: Optimized PNG: /Users/tajima/projects/ottawa311/build/iphone/build/Debug-iphoneos/ottawa311.app/Default.png
+o
+o | pngcrush 1.6.4
+o |    Copyright (C) 1998-2002,2006 Glenn Randers-Pehrson
+o |    Copyright (C) 2005      Greg Roelofs
+o | This is a free, open-source program.  Permission is irrevocably
+o | granted to everyone to use this version of pngcrush without
+o | payment of any fee.
+o | Executable name is pngcrush
+o | It was built with libpng version 1.2.7, and is
+o | running with  libpng version 1.2.7 - September 12, 2004 (header)
+o |    Copyright (C) 1998-2004,2006 Glenn Randers-Pehrson,
+o |    Copyright (C) 1996, 1997 Andreas Dilger,
+o |    Copyright (C) 1995, Guy Eric Schalnat, Group 42 Inc.,
+o | and zlib version 1.2.3, Copyright (C) 1998-2002 (or later),
+o |    Jean-loup Gailly and Mark Adler.
+o | It was compiled with gcc version 4.2.1 (Apple Inc.  build 5575) (dot 11).
+o
+o   Recompressing /Users/tajima/projects/ottawa311/build/iphone/build/Debug-iphoneos/ottawa311.app/images/camera.png
+o   Total length of data found in IDAT chunks    =      252
+o   IDAT length with method 120 (fm 1 zl 9 zs 1) =      222
+o   Best pngcrush method = 120 (fm 1 zl 9 zs 1) for /Users/tajima/projects/ottawa311/build/iphone/build/Debug-iphoneos/ottawa311.app/images/camera-pngcrush.png
+o     (11.90% IDAT reduction)
+o     (4.05% filesize reduction)
+o
+o   CPU time used = 0.002 seconds (decoding 0.000,
+o          encoding 0.001, other 0.001 seconds)
+o
+oiphoneos-optimize: Optimized PNG: /Users/tajima/projects/ottawa311/build/iphone/build/Debug-iphoneos/ottawa311.app/images/camera.png
+o
+o | pngcrush 1.6.4
+o |    Copyright (C) 1998-2002,2006 Glenn Randers-Pehrson
+o |    Copyright (C) 2005      Greg Roelofs
+o | This is a free, open-source program.  Permission is irrevocably
+o | granted to everyone to use this version of pngcrush without
+o | payment of any fee.
+o | Executable name is pngcrush
+o | It was built with libpng version 1.2.7, and is
+o | running with  libpng version 1.2.7 - September 12, 2004 (header)
+o |    Copyright (C) 1998-2004,2006 Glenn Randers-Pehrson,
+o |    Copyright (C) 1996, 1997 Andreas Dilger,
+o |    Copyright (C) 1995, Guy Eric Schalnat, Group 42 Inc.,
+o | and zlib version 1.2.3, Copyright (C) 1998-2002 (or later),
+o |    Jean-loup Gailly and Mark Adler.
+o | It was compiled with gcc version 4.2.1 (Apple Inc.  build 5575) (dot 11).
+o
+o   Recompressing /Users/tajima/projects/ottawa311/build/iphone/build/Debug-iphoneos/ottawa311.app/images/logo.png
+o   Total length of data found in IDAT chunks    =     3292
+o   IDAT length with method 120 (fm 1 zl 9 zs 1) =     3484
+o   Best pngcrush method = 120 (fm 1 zl 9 zs 1) for /Users/tajima/projects/ottawa311/build/iphone/build/Debug-iphoneos/ottawa311.app/images/logo-pngcrush.png
+o     (5.83% IDAT increase)
+o     (6.14% filesize increase)
+o
+o   CPU time used = 0.012 seconds (decoding 0.001,
+o          encoding 0.007, other 0.004 seconds)
+o
+oiphoneos-optimize: Optimized PNG: /Users/tajima/projects/ottawa311/build/iphone/build/Debug-iphoneos/ottawa311.app/images/logo.png
+o
+o | pngcrush 1.6.4
+o |    Copyright (C) 1998-2002,2006 Glenn Randers-Pehrson
+o |    Copyright (C) 2005      Greg Roelofs
+o | This is a free, open-source program.  Permission is irrevocably
+o | granted to everyone to use this version of pngcrush without
+o | payment of any fee.
+o | Executable name is pngcrush
+o | It was built with libpng version 1.2.7, and is
+o | running with  libpng version 1.2.7 - September 12, 2004 (header)
+o |    Copyright (C) 1998-2004,2006 Glenn Randers-Pehrson,
+o |    Copyright (C) 1996, 1997 Andreas Dilger,
+o |    Copyright (C) 1995, Guy Eric Schalnat, Group 42 Inc.,
+o | and zlib version 1.2.3, Copyright (C) 1998-2002 (or later),
+o |    Jean-loup Gailly and Mark Adler.
+o | It was compiled with gcc version 4.2.1 (Apple Inc.  build 5575) (dot 11).
+o
+o   Recompressing /Users/tajima/projects/ottawa311/build/iphone/build/Debug-iphoneos/ottawa311.app/images/profile-button.png
+o   Total length of data found in IDAT chunks    =     1108
+oHandling unknown chunk 0
+o   IDAT length with method 120 (fm 1 zl 9 zs 1) =     1437
+o   Best pngcrush method = 120 (fm 1 zl 9 zs 1) for /Users/tajima/projects/ottawa311/build/iphone/build/Debug-iphoneos/ottawa311.app/images/profile-button-pngcrush.png
+o     (29.69% IDAT increase)
+o     (7.49% filesize increase)
+o
+o   CPU time used = 0.005 seconds (decoding 0.000,
+o          encoding 0.002, other 0.003 seconds)
+o
+oiphoneos-optimize: Optimized PNG: /Users/tajima/projects/ottawa311/build/iphone/build/Debug-iphoneos/ottawa311.app/images/profile-button.png
+o
+o | pngcrush 1.6.4
+o |    Copyright (C) 1998-2002,2006 Glenn Randers-Pehrson
+o |    Copyright (C) 2005      Greg Roelofs
+o | This is a free, open-source program.  Permission is irrevocably
+o | granted to everyone to use this version of pngcrush without
+o | payment of any fee.
+o | Executable name is pngcrush
+o | It was built with libpng version 1.2.7, and is
+o | running with  libpng version 1.2.7 - September 12, 2004 (header)
+o |    Copyright (C) 1998-2004,2006 Glenn Randers-Pehrson,
+o |    Copyright (C) 1996, 1997 Andreas Dilger,
+o |    Copyright (C) 1995, Guy Eric Schalnat, Group 42 Inc.,
+o | and zlib version 1.2.3, Copyright (C) 1998-2002 (or later),
+o |    Jean-loup Gailly and Mark Adler.
+o | It was compiled with gcc version 4.2.1 (Apple Inc.  build 5575) (dot 11).
+o
+o   Recompressing /Users/tajima/projects/ottawa311/build/iphone/build/Debug-iphoneos/ottawa311.app/modules/ui/images/photoDefault.png
+o   Total length of data found in IDAT chunks    =     3933
+o   IDAT length with method 120 (fm 1 zl 9 zs 1) =     5972
+o   Best pngcrush method = 120 (fm 1 zl 9 zs 1) for /Users/tajima/projects/ottawa311/build/iphone/build/Debug-iphoneos/ottawa311.app/modules/ui/images/photoDefault-pngcrush.png
+o     (51.84% IDAT increase)
+o     (51.03% filesize increase)
+o
+o   CPU time used = 0.029 seconds (decoding 0.003,
+o          encoding 0.018, other 0.007 seconds)
+o
+oiphoneos-optimize: Optimized PNG: /Users/tajima/projects/ottawa311/build/iphone/build/Debug-iphoneos/ottawa311.app/modules/ui/images/photoDefault.png
+lSLF07#2@36"Run custom shell script 'Run Script'290231228#290231230#0(9334"iphoneos-optimize: Converting plists to binary in /Users/tajima/projects/ottawa311/build/iphone/build/Debug-iphoneos/ottawa311.app/iphoneos-optimize: Converted to binary plist: /Users/tajima/projects/ottawa311/build/iphone/build/Debug-iphoneos/ottawa311.app/Info.plistiphoneos-optimize: Converted to binary plist: /Users/tajima/projects/ottawa311/build/iphone/build/Debug-iphoneos/ottawa311.app/ResourceRules.plistiphoneos-optimize: Optimizing PNGs in /Users/tajima/projects/ottawa311/build/iphone/build/Debug-iphoneos/ottawa311.app/ | pngcrush 1.6.4 |    Copyright (C) 1998-2002,2006 Glenn Randers-Pehrson |    Copyright (C) 2005      Greg Roelofs | This is a free, open-source program.  Permission is irrevocably | granted to everyone to use this version of pngcrush without | payment of any fee. | Executable name is pngcrush | It was built with libpng version 1.2.7, and is | running with  libpng version 1.2.7 - September 12, 2004 (header) |    Copyright (C) 1998-2004,2006 Glenn Randers-Pehrson, |    Copyright (C) 1996, 1997 Andreas Dilger, |    Copyright (C) 1995, Guy Eric Schalnat, Group 42 Inc., | and zlib version 1.2.3, Copyright (C) 1998-2002 (or later), |    Jean-loup Gailly and Mark Adler. | It was compiled with gcc version 4.2.1 (Apple Inc.  build 5575) (dot 11).   Recompressing /Users/tajima/projects/ottawa311/build/iphone/build/Debug-iphoneos/ottawa311.app/appicon.png   Total length of data found in IDAT chunks    =     4276   IDAT length with method 120 (fm 1 zl 9 zs 1) =     4038   Best pngcrush method = 120 (fm 1 zl 9 zs 1) for /Users/tajima/projects/ottawa311/build/iphone/build/Debug-iphoneos/ottawa311.app/appicon-pngcrush.png     (5.57% IDAT reduction)     (5.08% filesize reduction)   CPU time used = 0.010 seconds (decoding 0.001,          encoding 0.006, other 0.004 seconds)iphoneos-optimize: Optimized PNG: /Users/tajima/projects/ottawa311/build/iphone/build/Debug-iphoneos/ottawa311.app/appicon.png | pngcrush 1.6.4 |    Copyright (C) 1998-2002,2006 Glenn Randers-Pehrson |    Copyright (C) 2005      Greg Roelofs | This is a free, open-source program.  Permission is irrevocably | granted to everyone to use this version of pngcrush without | payment of any fee. | Executable name is pngcrush | It was built with libpng version 1.2.7, and is | running with  libpng version 1.2.7 - September 12, 2004 (header) |    Copyright (C) 1998-2004,2006 Glenn Randers-Pehrson, |    Copyright (C) 1996, 1997 Andreas Dilger, |    Copyright (C) 1995, Guy Eric Schalnat, Group 42 Inc., | and zlib version 1.2.3, Copyright (C) 1998-2002 (or later), |    Jean-loup Gailly and Mark Adler. | It was compiled with gcc version 4.2.1 (Apple Inc.  build 5575) (dot 11).   Recompressing /Users/tajima/projects/ottawa311/build/iphone/build/Debug-iphoneos/ottawa311.app/Default.png   Total length of data found in IDAT chunks    =   135395   Adding an opaque alpha channel.   IDAT length with method 120 (fm 1 zl 9 zs 1) =   149365   Best pngcrush method = 120 (fm 1 zl 9 zs 1) for /Users/tajima/projects/ottawa311/build/iphone/build/Debug-iphoneos/ottawa311.app/Default-pngcrush.png     (10.32% IDAT increase)     (10.32% filesize increase)   CPU time used = 1.442 seconds (decoding 0.014,          encoding 1.411, other 0.017 seconds)iphoneos-optimize: Optimized PNG: /Users/tajima/projects/ottawa311/build/iphone/build/Debug-iphoneos/ottawa311.app/Default.png | pngcrush 1.6.4 |    Copyright (C) 1998-2002,2006 Glenn Randers-Pehrson |    Copyright (C) 2005      Greg Roelofs | This is a free, open-source program.  Permission is irrevocably | granted to everyone to use this version of pngcrush without | payment of any fee. | Executable name is pngcrush | It was built with libpng version 1.2.7, and is | running with  libpng version 1.2.7 - September 12, 2004 (header) |    Copyright (C) 1998-2004,2006 Glenn Randers-Pehrson, |    Copyright (C) 1996, 1997 Andreas Dilger, |    Copyright (C) 1995, Guy Eric Schalnat, Group 42 Inc., | and zlib version 1.2.3, Copyright (C) 1998-2002 (or later), |    Jean-loup Gailly and Mark Adler. | It was compiled with gcc version 4.2.1 (Apple Inc.  build 5575) (dot 11).   Recompressing /Users/tajima/projects/ottawa311/build/iphone/build/Debug-iphoneos/ottawa311.app/images/camera.png   Total length of data found in IDAT chunks    =      252   IDAT length with method 120 (fm 1 zl 9 zs 1) =      222   Best pngcrush method = 120 (fm 1 zl 9 zs 1) for /Users/tajima/projects/ottawa311/build/iphone/build/Debug-iphoneos/ottawa311.app/images/camera-pngcrush.png     (11.90% IDAT reduction)     (4.05% filesize reduction)   CPU time used = 0.002 seconds (decoding 0.000,          encoding 0.001, other 0.001 seconds)iphoneos-optimize: Optimized PNG: /Users/tajima/projects/ottawa311/build/iphone/build/Debug-iphoneos/ottawa311.app/images/camera.png | pngcrush 1.6.4 |    Copyright (C) 1998-2002,2006 Glenn Randers-Pehrson |    Copyright (C) 2005      Greg Roelofs | This is a free, open-source program.  Permission is irrevocably | granted to everyone to use this version of pngcrush without | payment of any fee. | Executable name is pngcrush | It was built with libpng version 1.2.7, and is | running with  libpng version 1.2.7 - September 12, 2004 (header) |    Copyright (C) 1998-2004,2006 Glenn Randers-Pehrson, |    Copyright (C) 1996, 1997 Andreas Dilger, |    Copyright (C) 1995, Guy Eric Schalnat, Group 42 Inc., | and zlib version 1.2.3, Copyright (C) 1998-2002 (or later), |    Jean-loup Gailly and Mark Adler. | It was compiled with gcc version 4.2.1 (Apple Inc.  build 5575) (dot 11).   Recompressing /Users/tajima/projects/ottawa311/build/iphone/build/Debug-iphoneos/ottawa311.app/images/logo.png   Total length of data found in IDAT chunks    =     3292   IDAT length with method 120 (fm 1 zl 9 zs 1) =     3484   Best pngcrush method = 120 (fm 1 zl 9 zs 1) for /Users/tajima/projects/ottawa311/build/iphone/build/Debug-iphoneos/ottawa311.app/images/logo-pngcrush.png     (5.83% IDAT increase)     (6.14% filesize increase)   CPU time used = 0.012 seconds (decoding 0.001,          encoding 0.007, other 0.004 seconds)iphoneos-optimize: Optimized PNG: /Users/tajima/projects/ottawa311/build/iphone/build/Debug-iphoneos/ottawa311.app/images/logo.png | pngcrush 1.6.4 |    Copyright (C) 1998-2002,2006 Glenn Randers-Pehrson |    Copyright (C) 2005      Greg Roelofs | This is a free, open-source program.  Permission is irrevocably | granted to everyone to use this version of pngcrush without | payment of any fee. | Executable name is pngcrush | It was built with libpng version 1.2.7, and is | running with  libpng version 1.2.7 - September 12, 2004 (header) |    Copyright (C) 1998-2004,2006 Glenn Randers-Pehrson, |    Copyright (C) 1996, 1997 Andreas Dilger, |    Copyright (C) 1995, Guy Eric Schalnat, Group 42 Inc., | and zlib version 1.2.3, Copyright (C) 1998-2002 (or later), |    Jean-loup Gailly and Mark Adler. | It was compiled with gcc version 4.2.1 (Apple Inc.  build 5575) (dot 11).   Recompressing /Users/tajima/projects/ottawa311/build/iphone/build/Debug-iphoneos/ottawa311.app/images/profile-button.png   Total length of data found in IDAT chunks    =     1108Handling unknown chunk 0   IDAT length with method 120 (fm 1 zl 9 zs 1) =     1437   Best pngcrush method = 120 (fm 1 zl 9 zs 1) for /Users/tajima/projects/ottawa311/build/iphone/build/Debug-iphoneos/ottawa311.app/images/profile-button-pngcrush.png     (29.69% IDAT increase)     (7.49% filesize increase)   CPU time used = 0.005 seconds (decoding 0.000,          encoding 0.002, other 0.003 seconds)iphoneos-optimize: Optimized PNG: /Users/tajima/projects/ottawa311/build/iphone/build/Debug-iphoneos/ottawa311.app/images/profile-button.png | pngcrush 1.6.4 |    Copyright (C) 1998-2002,2006 Glenn Randers-Pehrson |    Copyright (C) 2005      Greg Roelofs | This is a free, open-source program.  Permission is irrevocably | granted to everyone to use this version of pngcrush without | payment of any fee. | Executable name is pngcrush | It was built with libpng version 1.2.7, and is | running with  libpng version 1.2.7 - September 12, 2004 (header) |    Copyright (C) 1998-2004,2006 Glenn Randers-Pehrson, |    Copyright (C) 1996, 1997 Andreas Dilger, |    Copyright (C) 1995, Guy Eric Schalnat, Group 42 Inc., | and zlib version 1.2.3, Copyright (C) 1998-2002 (or later), |    Jean-loup Gailly and Mark Adler. | It was compiled with gcc version 4.2.1 (Apple Inc.  build 5575) (dot 11).   Recompressing /Users/tajima/projects/ottawa311/build/iphone/build/Debug-iphoneos/ottawa311.app/modules/ui/images/photoDefault.png   Total length of data found in IDAT chunks    =     3933   IDAT length with method 120 (fm 1 zl 9 zs 1) =     5972   Best pngcrush method = 120 (fm 1 zl 9 zs 1) for /Users/tajima/projects/ottawa311/build/iphone/build/Debug-iphoneos/ottawa311.app/modules/ui/images/photoDefault-pngcrush.png     (51.84% IDAT increase)     (51.03% filesize increase)   CPU time used = 0.029 seconds (decoding 0.003,          encoding 0.018, other 0.007 seconds)iphoneos-optimize: Optimized PNG: /Users/tajima/projects/ottawa311/build/iphone/build/Debug-iphoneos/ottawa311.app/modules/ui/images/photoDefault.png150(13@132"iphoneos-optimize: Converting plists to binary in /Users/tajima/projects/ottawa311/build/iphone/build/Debug-iphoneos/ottawa311.app/290231229#0#132#0(1@0"0(13@138"iphoneos-optimize: Converted to binary plist: /Users/tajima/projects/ottawa311/build/iphone/build/Debug-iphoneos/ottawa311.app/Info.plist290231229#132#138#0(1@0"0(13@147"iphoneos-optimize: Converted to binary plist: /Users/tajima/projects/ottawa311/build/iphone/build/Debug-iphoneos/ottawa311.app/ResourceRules.plist290231229#270#147#0(1@0"0(13@120"iphoneos-optimize: Optimizing PNGs in /Users/tajima/projects/ottawa311/build/iphone/build/Debug-iphoneos/ottawa311.app/290231229#417#120#0(1@0"0(13@18" | pngcrush 1.6.4290231229#538#18#0(1@0"0(13@57" |    Copyright (C) 1998-2002,2006 Glenn Randers-Pehrson290231229#556#57#0(1@0"0(13@43" |    Copyright (C) 2005      Greg Roelofs290231229#613#43#0(1@0"0(13@67" | This is a free, open-source program.  Permission is irrevocably290231229#656#67#0(1@0"0(13@63" | granted to everyone to use this version of pngcrush without290231229#723#63#0(1@0"0(13@23" | payment of any fee.290231229#786#23#0(1@0"0(13@31" | Executable name is pngcrush290231229#809#31#0(1@0"0(13@50" | It was built with libpng version 1.2.7, and is290231229#840#50#0(1@0"0(13@68" | running with  libpng version 1.2.7 - September 12, 2004 (header)290231229#890#68#0(1@0"0(13@58" |    Copyright (C) 1998-2004,2006 Glenn Randers-Pehrson,290231229#958#58#0(1@0"0(13@47" |    Copyright (C) 1996, 1997 Andreas Dilger,290231229#1016#47#0(1@0"0(13@60" |    Copyright (C) 1995, Guy Eric Schalnat, Group 42 Inc.,290231229#1063#60#0(1@0"0(13@63" | and zlib version 1.2.3, Copyright (C) 1998-2002 (or later),290231229#1123#63#0(1@0"0(13@39" |    Jean-loup Gailly and Mark Adler.290231229#1186#39#0(1@0"0(13@77" | It was compiled with gcc version 4.2.1 (Apple Inc.  build 5575) (dot 11).290231229#1225#77#0(1@0"0(13@110"   Recompressing /Users/tajima/projects/ottawa311/build/iphone/build/Debug-iphoneos/ottawa311.app/appicon.png290231229#1303#110#0(1@0"0(13@59"   Total length of data found in IDAT chunks    =     4276290231229#1413#59#0(1@0"0(13@59"   IDAT length with method 120 (fm 1 zl 9 zs 1) =     4038290231229#1472#59#0(1@0"0(13@153"   Best pngcrush method = 120 (fm 1 zl 9 zs 1) for /Users/tajima/projects/ottawa311/build/iphone/build/Debug-iphoneos/ottawa311.app/appicon-pngcrush.png290231229#1531#153#0(1@0"0(13@28"     (5.57% IDAT reduction)290231229#1684#28#0(1@0"0(13@32"     (5.08% filesize reduction)290231229#1712#32#0(1@0"0(13@50"   CPU time used = 0.010 seconds (decoding 0.001,290231229#1745#50#0(1@0"0(13@47"          encoding 0.006, other 0.004 seconds)290231229#1795#47#0(1@0"0(13@127"iphoneos-optimize: Optimized PNG: /Users/tajima/projects/ottawa311/build/iphone/build/Debug-iphoneos/ottawa311.app/appicon.png290231229#1843#127#0(1@0"0(13@18" | pngcrush 1.6.4290231229#1971#18#0(1@0"0(13@57" |    Copyright (C) 1998-2002,2006 Glenn Randers-Pehrson290231229#1989#57#0(1@0"0(13@43" |    Copyright (C) 2005      Greg Roelofs290231229#2046#43#0(1@0"0(13@67" | This is a free, open-source program.  Permission is irrevocably290231229#2089#67#0(1@0"0(13@63" | granted to everyone to use this version of pngcrush without290231229#2156#63#0(1@0"0(13@23" | payment of any fee.290231229#2219#23#0(1@0"0(13@31" | Executable name is pngcrush290231229#2242#31#0(1@0"0(13@50" | It was built with libpng version 1.2.7, and is290231229#2273#50#0(1@0"0(13@68" | running with  libpng version 1.2.7 - September 12, 2004 (header)290231229#2323#68#0(1@0"0(13@58" |    Copyright (C) 1998-2004,2006 Glenn Randers-Pehrson,290231229#2391#58#0(1@0"0(13@47" |    Copyright (C) 1996, 1997 Andreas Dilger,290231229#2449#47#0(1@0"0(13@60" |    Copyright (C) 1995, Guy Eric Schalnat, Group 42 Inc.,290231229#2496#60#0(1@0"0(13@63" | and zlib version 1.2.3, Copyright (C) 1998-2002 (or later),290231229#2556#63#0(1@0"0(13@39" |    Jean-loup Gailly and Mark Adler.290231229#2619#39#0(1@0"0(13@77" | It was compiled with gcc version 4.2.1 (Apple Inc.  build 5575) (dot 11).290231229#2658#77#0(1@0"0(13@110"   Recompressing /Users/tajima/projects/ottawa311/build/iphone/build/Debug-iphoneos/ottawa311.app/Default.png290231229#2736#110#0(1@0"0(13@59"   Total length of data found in IDAT chunks    =   135395290231229#2846#59#0(1@0"0(13@35"   Adding an opaque alpha channel.290231230#2905#35#0(1@0"0(13@59"   IDAT length with method 120 (fm 1 zl 9 zs 1) =   149365290231230#2940#59#0(1@0"0(13@153"   Best pngcrush method = 120 (fm 1 zl 9 zs 1) for /Users/tajima/projects/ottawa311/build/iphone/build/Debug-iphoneos/ottawa311.app/Default-pngcrush.png290231230#2999#153#0(1@0"0(13@28"     (10.32% IDAT increase)290231230#3152#28#0(1@0"0(13@32"     (10.32% filesize increase)290231230#3180#32#0(1@0"0(13@50"   CPU time used = 1.442 seconds (decoding 0.014,290231230#3213#50#0(1@0"0(13@47"          encoding 1.411, other 0.017 seconds)290231230#3263#47#0(1@0"0(13@127"iphoneos-optimize: Optimized PNG: /Users/tajima/projects/ottawa311/build/iphone/build/Debug-iphoneos/ottawa311.app/Default.png290231230#3311#127#0(1@0"0(13@18" | pngcrush 1.6.4290231230#3439#18#0(1@0"0(13@57" |    Copyright (C) 1998-2002,2006 Glenn Randers-Pehrson290231230#3457#57#0(1@0"0(13@43" |    Copyright (C) 2005      Greg Roelofs290231230#3514#43#0(1@0"0(13@67" | This is a free, open-source program.  Permission is irrevocably290231230#3557#67#0(1@0"0(13@63" | granted to everyone to use this version of pngcrush without290231230#3624#63#0(1@0"0(13@23" | payment of any fee.290231230#3687#23#0(1@0"0(13@31" | Executable name is pngcrush290231230#3710#31#0(1@0"0(13@50" | It was built with libpng version 1.2.7, and is290231230#3741#50#0(1@0"0(13@68" | running with  libpng version 1.2.7 - September 12, 2004 (header)290231230#3791#68#0(1@0"0(13@58" |    Copyright (C) 1998-2004,2006 Glenn Randers-Pehrson,290231230#3859#58#0(1@0"0(13@47" |    Copyright (C) 1996, 1997 Andreas Dilger,290231230#3917#47#0(1@0"0(13@60" |    Copyright (C) 1995, Guy Eric Schalnat, Group 42 Inc.,290231230#3964#60#0(1@0"0(13@63" | and zlib version 1.2.3, Copyright (C) 1998-2002 (or later),290231230#4024#63#0(1@0"0(13@39" |    Jean-loup Gailly and Mark Adler.290231230#4087#39#0(1@0"0(13@77" | It was compiled with gcc version 4.2.1 (Apple Inc.  build 5575) (dot 11).290231230#4126#77#0(1@0"0(13@116"   Recompressing /Users/tajima/projects/ottawa311/build/iphone/build/Debug-iphoneos/ottawa311.app/images/camera.png290231230#4204#116#0(1@0"0(13@59"   Total length of data found in IDAT chunks    =      252290231230#4320#59#0(1@0"0(13@59"   IDAT length with method 120 (fm 1 zl 9 zs 1) =      222290231230#4379#59#0(1@0"0(13@159"   Best pngcrush method = 120 (fm 1 zl 9 zs 1) for /Users/tajima/projects/ottawa311/build/iphone/build/Debug-iphoneos/ottawa311.app/images/camera-pngcrush.png290231230#4438#159#0(1@0"0(13@29"     (11.90% IDAT reduction)290231230#4597#29#0(1@0"0(13@32"     (4.05% filesize reduction)290231230#4626#32#0(1@0"0(13@50"   CPU time used = 0.002 seconds (decoding 0.000,290231230#4659#50#0(1@0"0(13@47"          encoding 0.001, other 0.001 seconds)290231230#4709#47#0(1@0"0(13@133"iphoneos-optimize: Optimized PNG: /Users/tajima/projects/ottawa311/build/iphone/build/Debug-iphoneos/ottawa311.app/images/camera.png290231230#4757#133#0(1@0"0(13@18" | pngcrush 1.6.4290231230#4891#18#0(1@0"0(13@57" |    Copyright (C) 1998-2002,2006 Glenn Randers-Pehrson290231230#4909#57#0(1@0"0(13@43" |    Copyright (C) 2005      Greg Roelofs290231230#4966#43#0(1@0"0(13@67" | This is a free, open-source program.  Permission is irrevocably290231230#5009#67#0(1@0"0(13@63" | granted to everyone to use this version of pngcrush without290231230#5076#63#0(1@0"0(13@23" | payment of any fee.290231230#5139#23#0(1@0"0(13@31" | Executable name is pngcrush290231230#5162#31#0(1@0"0(13@50" | It was built with libpng version 1.2.7, and is290231230#5193#50#0(1@0"0(13@68" | running with  libpng version 1.2.7 - September 12, 2004 (header)290231230#5243#68#0(1@0"0(13@58" |    Copyright (C) 1998-2004,2006 Glenn Randers-Pehrson,290231230#5311#58#0(1@0"0(13@47" |    Copyright (C) 1996, 1997 Andreas Dilger,290231230#5369#47#0(1@0"0(13@60" |    Copyright (C) 1995, Guy Eric Schalnat, Group 42 Inc.,290231230#5416#60#0(1@0"0(13@63" | and zlib version 1.2.3, Copyright (C) 1998-2002 (or later),290231230#5476#63#0(1@0"0(13@39" |    Jean-loup Gailly and Mark Adler.290231230#5539#39#0(1@0"0(13@77" | It was compiled with gcc version 4.2.1 (Apple Inc.  build 5575) (dot 11).290231230#5578#77#0(1@0"0(13@114"   Recompressing /Users/tajima/projects/ottawa311/build/iphone/build/Debug-iphoneos/ottawa311.app/images/logo.png290231230#5656#114#0(1@0"0(13@59"   Total length of data found in IDAT chunks    =     3292290231230#5770#59#0(1@0"0(13@59"   IDAT length with method 120 (fm 1 zl 9 zs 1) =     3484290231230#5829#59#0(1@0"0(13@157"   Best pngcrush method = 120 (fm 1 zl 9 zs 1) for /Users/tajima/projects/ottawa311/build/iphone/build/Debug-iphoneos/ottawa311.app/images/logo-pngcrush.png290231230#5888#157#0(1@0"0(13@27"     (5.83% IDAT increase)290231230#6045#27#0(1@0"0(13@31"     (6.14% filesize increase)290231230#6072#31#0(1@0"0(13@50"   CPU time used = 0.012 seconds (decoding 0.001,290231230#6104#50#0(1@0"0(13@47"          encoding 0.007, other 0.004 seconds)290231230#6154#47#0(1@0"0(13@131"iphoneos-optimize: Optimized PNG: /Users/tajima/projects/ottawa311/build/iphone/build/Debug-iphoneos/ottawa311.app/images/logo.png290231230#6202#131#0(1@0"0(13@18" | pngcrush 1.6.4290231230#6334#18#0(1@0"0(13@57" |    Copyright (C) 1998-2002,2006 Glenn Randers-Pehrson290231230#6352#57#0(1@0"0(13@43" |    Copyright (C) 2005      Greg Roelofs290231230#6409#43#0(1@0"0(13@67" | This is a free, open-source program.  Permission is irrevocably290231230#6452#67#0(1@0"0(13@63" | granted to everyone to use this version of pngcrush without290231230#6519#63#0(1@0"0(13@23" | payment of any fee.290231230#6582#23#0(1@0"0(13@31" | Executable name is pngcrush290231230#6605#31#0(1@0"0(13@50" | It was built with libpng version 1.2.7, and is290231230#6636#50#0(1@0"0(13@68" | running with  libpng version 1.2.7 - September 12, 2004 (header)290231230#6686#68#0(1@0"0(13@58" |    Copyright (C) 1998-2004,2006 Glenn Randers-Pehrson,290231230#6754#58#0(1@0"0(13@47" |    Copyright (C) 1996, 1997 Andreas Dilger,290231230#6812#47#0(1@0"0(13@60" |    Copyright (C) 1995, Guy Eric Schalnat, Group 42 Inc.,290231230#6859#60#0(1@0"0(13@63" | and zlib version 1.2.3, Copyright (C) 1998-2002 (or later),290231230#6919#63#0(1@0"0(13@39" |    Jean-loup Gailly and Mark Adler.290231230#6982#39#0(1@0"0(13@77" | It was compiled with gcc version 4.2.1 (Apple Inc.  build 5575) (dot 11).290231230#7021#77#0(1@0"0(13@124"   Recompressing /Users/tajima/projects/ottawa311/build/iphone/build/Debug-iphoneos/ottawa311.app/images/profile-button.png290231230#7099#124#0(1@0"0(13@59"   Total length of data found in IDAT chunks    =     1108290231230#7223#59#0(1@0"0(13@25"Handling unknown chunk 0290231230#7282#25#0(1@0"0(13@59"   IDAT length with method 120 (fm 1 zl 9 zs 1) =     1437290231230#7307#59#0(1@0"0(13@167"   Best pngcrush method = 120 (fm 1 zl 9 zs 1) for /Users/tajima/projects/ottawa311/build/iphone/build/Debug-iphoneos/ottawa311.app/images/profile-button-pngcrush.png290231230#7366#167#0(1@0"0(13@28"     (29.69% IDAT increase)290231230#7533#28#0(1@0"0(13@31"     (7.49% filesize increase)290231230#7561#31#0(1@0"0(13@50"   CPU time used = 0.005 seconds (decoding 0.000,290231230#7593#50#0(1@0"0(13@47"          encoding 0.002, other 0.003 seconds)290231230#7643#47#0(1@0"0(13@141"iphoneos-optimize: Optimized PNG: /Users/tajima/projects/ottawa311/build/iphone/build/Debug-iphoneos/ottawa311.app/images/profile-button.png290231230#7691#141#0(1@0"0(13@18" | pngcrush 1.6.4290231230#7833#18#0(1@0"0(13@57" |    Copyright (C) 1998-2002,2006 Glenn Randers-Pehrson290231230#7851#57#0(1@0"0(13@43" |    Copyright (C) 2005      Greg Roelofs290231230#7908#43#0(1@0"0(13@67" | This is a free, open-source program.  Permission is irrevocably290231230#7951#67#0(1@0"0(13@63" | granted to everyone to use this version of pngcrush without290231230#8018#63#0(1@0"0(13@23" | payment of any fee.290231230#8081#23#0(1@0"0(13@31" | Executable name is pngcrush290231230#8104#31#0(1@0"0(13@50" | It was built with libpng version 1.2.7, and is290231230#8135#50#0(1@0"0(13@68" | running with  libpng version 1.2.7 - September 12, 2004 (header)290231230#8185#68#0(1@0"0(13@58" |    Copyright (C) 1998-2004,2006 Glenn Randers-Pehrson,290231230#8253#58#0(1@0"0(13@47" |    Copyright (C) 1996, 1997 Andreas Dilger,290231230#8311#47#0(1@0"0(13@60" |    Copyright (C) 1995, Guy Eric Schalnat, Group 42 Inc.,290231230#8358#60#0(1@0"0(13@63" | and zlib version 1.2.3, Copyright (C) 1998-2002 (or later),290231230#8418#63#0(1@0"0(13@39" |    Jean-loup Gailly and Mark Adler.290231230#8481#39#0(1@0"0(13@77" | It was compiled with gcc version 4.2.1 (Apple Inc.  build 5575) (dot 11).290231230#8520#77#0(1@0"0(13@133"   Recompressing /Users/tajima/projects/ottawa311/build/iphone/build/Debug-iphoneos/ottawa311.app/modules/ui/images/photoDefault.png290231230#8598#133#0(1@0"0(13@59"   Total length of data found in IDAT chunks    =     3933290231230#8731#59#0(1@0"0(13@59"   IDAT length with method 120 (fm 1 zl 9 zs 1) =     5972290231230#8790#59#0(1@0"0(13@176"   Best pngcrush method = 120 (fm 1 zl 9 zs 1) for /Users/tajima/projects/ottawa311/build/iphone/build/Debug-iphoneos/ottawa311.app/modules/ui/images/photoDefault-pngcrush.png290231230#8849#176#0(1@0"0(13@28"     (51.84% IDAT increase)290231230#9025#28#0(1@0"0(13@32"     (51.03% filesize increase)290231230#9053#32#0(1@0"0(13@50"   CPU time used = 0.029 seconds (decoding 0.003,290231230#9086#50#0(1@0"0(13@47"          encoding 0.018, other 0.007 seconds)290231230#9136#47#0(1@0"0(13@150"iphoneos-optimize: Optimized PNG: /Users/tajima/projects/ottawa311/build/iphone/build/Debug-iphoneos/ottawa311.app/modules/ui/images/photoDefault.png290231230#9184#150#0(1@0"0(0#0#0"4301200840#17529"    cd /Users/tajima/projects/ottawa311/build/iphone    setenv ACTION build    setenv AD_HOC_CODE_SIGNING_ALLOWED NO    setenv ALTERNATE_GROUP tajima    setenv ALTERNATE_MODE u+w,go-w,a+rX    setenv ALTERNATE_OWNER tajima    setenv ALWAYS_SEARCH_USER_PATHS NO    setenv APPLE_INTERNAL_DEVELOPER_DIR /AppleInternal/Developer    setenv APPLE_INTERNAL_DIR /AppleInternal    setenv APPLE_INTERNAL_DOCUMENTATION_DIR /AppleInternal/Documentation    setenv APPLE_INTERNAL_LIBRARY_DIR /AppleInternal/Library    setenv APPLE_INTERNAL_TOOLS /AppleInternal/Developer/Tools    setenv APPLY_RULES_IN_COPY_FILES NO    setenv ARCHS armv6    setenv ARCHS_STANDARD_32_64_BIT armv6    setenv ARCHS_STANDARD_32_BIT armv6    setenv ARCHS_UNIVERSAL_IPHONE_OS "armv6 armv7"    setenv BUILD_COMPONENTS "headers build"    setenv BUILD_DIR /Users/tajima/projects/ottawa311/build/iphone/build    setenv BUILD_ROOT /Users/tajima/projects/ottawa311/build/iphone/build    setenv BUILD_STYLE Debug    setenv BUILD_VARIANTS normal    setenv BUILT_PRODUCTS_DIR /Users/tajima/projects/ottawa311/build/iphone/build/Debug-iphoneos    setenv CACHE_ROOT /var/folders/gQ/gQsIVJLSFx42UneCFLhNO++++TI/-Caches-/com.apple.Xcode.501    setenv CCHROOT /var/folders/gQ/gQsIVJLSFx42UneCFLhNO++++TI/-Caches-/com.apple.Xcode.501    setenv CHMOD /bin/chmod    setenv CHOWN /usr/sbin/chown    setenv CLASS_FILE_DIR /Users/tajima/projects/ottawa311/build/iphone/build/ottawa311.build/Debug-iphoneos/ottawa311.build/JavaClasses    setenv CLEAN_PRECOMPS YES    setenv CLONE_HEADERS NO    setenv CODESIGNING_FOLDER_PATH /Users/tajima/projects/ottawa311/build/iphone/build/Debug-iphoneos/ottawa311.app    setenv CODE_SIGNING_ALLOWED YES    setenv CODE_SIGNING_REQUIRED YES    setenv CODE_SIGN_CONTEXT_CLASS XCiPhoneOSCodeSignContext    setenv CODE_SIGN_IDENTITY "iPhone Developer: John Tajima (E36L8ZQAV9)"    setenv COMMAND_MODE legacy    setenv COMPOSITE_SDK_DIRS /var/folders/gQ/gQsIVJLSFx42UneCFLhNO++++TI/-Caches-/com.apple.Xcode.501/CompositeSDKs    setenv COMPRESS_PNG_FILES YES    setenv CONFIGURATION Debug    setenv CONFIGURATION_BUILD_DIR /Users/tajima/projects/ottawa311/build/iphone/build/Debug-iphoneos    setenv CONFIGURATION_TEMP_DIR /Users/tajima/projects/ottawa311/build/iphone/build/ottawa311.build/Debug-iphoneos    setenv CONTENTS_FOLDER_PATH ottawa311.app    setenv COPYING_PRESERVES_HFS_DATA NO    setenv COPY_PHASE_STRIP NO    setenv COPY_RESOURCES_FROM_STATIC_FRAMEWORKS YES    setenv CP /bin/cp    setenv CURRENT_ARCH armv6    setenv CURRENT_VARIANT normal    setenv DEAD_CODE_STRIPPING YES    setenv DEBUGGING_SYMBOLS YES    setenv DEBUG_INFORMATION_FORMAT dwarf-with-dsym    setenv DEPLOYMENT_LOCATION NO    setenv DEPLOYMENT_POSTPROCESSING NO    setenv DERIVED_FILES_DIR /Users/tajima/projects/ottawa311/build/iphone/build/ottawa311.build/Debug-iphoneos/ottawa311.build/DerivedSources    setenv DERIVED_FILE_DIR /Users/tajima/projects/ottawa311/build/iphone/build/ottawa311.build/Debug-iphoneos/ottawa311.build/DerivedSources    setenv DERIVED_SOURCES_DIR /Users/tajima/projects/ottawa311/build/iphone/build/ottawa311.build/Debug-iphoneos/ottawa311.build/DerivedSources    setenv DEVELOPER_APPLICATIONS_DIR /Developer/Applications    setenv DEVELOPER_BIN_DIR /Developer/usr/bin    setenv DEVELOPER_DIR /Developer    setenv DEVELOPER_FRAMEWORKS_DIR /Developer/Library/Frameworks    setenv DEVELOPER_FRAMEWORKS_DIR_QUOTED "\"/Developer/Library/Frameworks\""    setenv DEVELOPER_LIBRARY_DIR /Developer/Library    setenv DEVELOPER_SDK_DIR /Developer/SDKs    setenv DEVELOPER_TOOLS_DIR /Developer/Tools    setenv DEVELOPER_USR_DIR /Developer/usr    setenv DEVELOPMENT_LANGUAGE English    setenv DOCUMENTATION_FOLDER_PATH /Documentation    setenv DO_HEADER_SCANNING_IN_JAM NO    setenv DSTROOT /tmp/ottawa311.dst    setenv DWARF_DSYM_FILE_NAME ottawa311.app.dSYM    setenv DWARF_DSYM_FOLDER_PATH /Users/tajima/projects/ottawa311/build/iphone/build/Debug-iphoneos    setenv EFFECTIVE_PLATFORM_NAME -iphoneos    setenv EMBEDDED_PROFILE_NAME embedded.mobileprovision    setenv ENABLE_HEADER_DEPENDENCIES YES    setenv ENABLE_OPENMP_SUPPORT NO    setenv ENTITLEMENTS_ALLOWED YES    setenv ENTITLEMENTS_REQUIRED YES    setenv EXCLUDED_INSTALLSRC_SUBDIRECTORY_PATTERNS ".svn CVS"    setenv EXCLUDED_RECURSIVE_SEARCH_PATH_SUBDIRECTORIES "*.nib *.lproj *.framework *.gch (*) CVS .svn *.xcodeproj *.xcode *.pbproj *.pbxproj"    setenv EXECUTABLES_FOLDER_PATH ottawa311.app/Executables    setenv EXECUTABLE_FOLDER_PATH ottawa311.app    setenv EXECUTABLE_NAME ottawa311    setenv EXECUTABLE_PATH ottawa311.app/ottawa311    setenv FILE_LIST /Users/tajima/projects/ottawa311/build/iphone/build/ottawa311.build/Debug-iphoneos/ottawa311.build/Objects/LinkFileList    setenv FIXED_FILES_DIR /Users/tajima/projects/ottawa311/build/iphone/build/ottawa311.build/Debug-iphoneos/ottawa311.build/FixedFiles    setenv FRAMEWORKS_FOLDER_PATH ottawa311.app/Frameworks    setenv FRAMEWORK_FLAG_PREFIX -framework    setenv FRAMEWORK_SEARCH_PATHS "\"/Users/tajima/projects/ottawa311/build/iphone/build/Debug-iphoneos\" "    setenv FRAMEWORK_VERSION A    setenv FULL_PRODUCT_NAME ottawa311.app    setenv GCC3_VERSION 3.3    setenv GCC_C_LANGUAGE_STANDARD c99    setenv GCC_DYNAMIC_NO_PIC NO    setenv GCC_INLINES_ARE_PRIVATE_EXTERN YES    setenv GCC_OPTIMIZATION_LEVEL 0    setenv GCC_PFE_FILE_C_DIALECTS "c objective-c c++ objective-c++"    setenv GCC_PRECOMPILE_PREFIX_HEADER YES    setenv GCC_PREFIX_HEADER ottawa311_Prefix.pch    setenv GCC_PREPROCESSOR_DEFINITIONS "'DEPLOYTYPE=test'"    setenv GCC_SYMBOLS_PRIVATE_EXTERN YES    setenv GCC_THUMB_SUPPORT YES    setenv GCC_TREAT_WARNINGS_AS_ERRORS NO    setenv GCC_VERSION 4.2    setenv GCC_VERSION_IDENTIFIER __2    setenv GCC_WARN_ABOUT_RETURN_TYPE YES    setenv GCC_WARN_UNUSED_VARIABLE YES    setenv GENERATE_MASTER_OBJECT_FILE NO    setenv GENERATE_PKGINFO_FILE YES    setenv GENERATE_PROFILING_CODE NO    setenv GID 501    setenv GROUP tajima    setenv HEADERMAP_INCLUDES_FLAT_ENTRIES_FOR_TARGET_BEING_BUILT YES    setenv HEADERMAP_INCLUDES_FRAMEWORK_ENTRIES_FOR_ALL_PRODUCT_TYPES YES    setenv HEADERMAP_INCLUDES_NONPUBLIC_NONPRIVATE_HEADERS YES    setenv HEADERMAP_INCLUDES_PROJECT_HEADERS YES    setenv HEADER_SEARCH_PATHS "\"/Users/tajima/projects/ottawa311/build/iphone/build/Debug-iphoneos/include\" "    setenv ICONV /usr/bin/iconv    setenv INFOPLIST_EXPAND_BUILD_SETTINGS YES    setenv INFOPLIST_FILE Info.plist    setenv INFOPLIST_OUTPUT_FORMAT binary    setenv INFOPLIST_PATH ottawa311.app/Info.plist    setenv INFOPLIST_PREPROCESS NO    setenv INFOSTRINGS_PATH /InfoPlist.strings    setenv INSTALL_DIR /tmp/ottawa311.dst/Users/tajima/Applications    setenv INSTALL_GROUP tajima    setenv INSTALL_MODE_FLAG u+w,go-w,a+rX    setenv INSTALL_OWNER tajima    setenv INSTALL_PATH /Users/tajima/Applications    setenv INSTALL_ROOT /tmp/ottawa311.dst    setenv IPHONEOS_DEPLOYMENT_TARGET 3.1    setenv JAVAC_DEFAULT_FLAGS "-J-Xms64m -J-XX:NewSize=4M -J-Dfile.encoding=UTF8"    setenv JAVA_APP_STUB /System/Library/Frameworks/JavaVM.framework/Resources/MacOS/JavaApplicationStub    setenv JAVA_ARCHIVE_CLASSES YES    setenv JAVA_ARCHIVE_TYPE JAR    setenv JAVA_COMPILER /usr/bin/javac    setenv JAVA_FOLDER_PATH ottawa311.app/Java    setenv JAVA_FRAMEWORK_RESOURCES_DIRS Resources    setenv JAVA_JAR_FLAGS cv    setenv JAVA_SOURCE_SUBDIR .    setenv JAVA_USE_DEPENDENCIES YES    setenv JAVA_ZIP_FLAGS -urg    setenv JIKES_DEFAULT_FLAGS "+E +OLDCSO"    setenv KEEP_PRIVATE_EXTERNS NO    setenv LD_GENERATE_MAP_FILE NO    setenv LD_MAP_FILE_PATH /Users/tajima/projects/ottawa311/build/iphone/build/ottawa311.build/Debug-iphoneos/ottawa311.build/ottawa311-LinkMap-normal-armv6.txt    setenv LD_OPENMP_FLAGS -fopenmp    setenv LEX /Developer/usr/bin/lex    setenv LIBRARY_FLAG_NOSPACE YES    setenv LIBRARY_FLAG_PREFIX -l    setenv LIBRARY_SEARCH_PATHS "\"/Users/tajima/projects/ottawa311/build/iphone/build/Debug-iphoneos\"  \"/Users/tajima/projects/ottawa311/build/iphone\" Resources"    setenv LINKER_DISPLAYS_MANGLED_NAMES NO    setenv LINK_FILE_LIST_normal_armv6 /Users/tajima/projects/ottawa311/build/iphone/build/ottawa311.build/Debug-iphoneos/ottawa311.build/Objects-normal/armv6/ottawa311.LinkFileList    setenv LINK_WITH_STANDARD_LIBRARIES YES    setenv LOCAL_ADMIN_APPS_DIR /Applications/Utilities    setenv LOCAL_APPS_DIR /Applications    setenv LOCAL_DEVELOPER_DIR /Library/Developer    setenv LOCAL_LIBRARY_DIR /Library    setenv MACH_O_TYPE mh_execute    setenv MACOSX_DEPLOYMENT_TARGET 10.5    setenv MAC_OS_X_VERSION_ACTUAL 1062    setenv MAC_OS_X_VERSION_MAJOR 1060    setenv MAC_OS_X_VERSION_MINOR 0602    setenv NATIVE_ARCH armv6    setenv NATIVE_ARCH_32_BIT i386    setenv NATIVE_ARCH_64_BIT x86_64    setenv NATIVE_ARCH_ACTUAL x86_64    setenv NO_COMMON YES    setenv OBJECT_FILE_DIR /Users/tajima/projects/ottawa311/build/iphone/build/ottawa311.build/Debug-iphoneos/ottawa311.build/Objects    setenv OBJECT_FILE_DIR_normal /Users/tajima/projects/ottawa311/build/iphone/build/ottawa311.build/Debug-iphoneos/ottawa311.build/Objects-normal    setenv OBJROOT /Users/tajima/projects/ottawa311/build/iphone/build    setenv ONLY_ACTIVE_ARCH YES    setenv OPTIMIZATION_LEVEL 0    setenv OS MACOS    setenv OSAC /usr/bin/osacompile    setenv OTHER_LDFLAGS "-framework Foundation -framework UIKit -ObjC -lstdc++"    setenv PACKAGE_TYPE com.apple.package-type.wrapper.application    setenv PASCAL_STRINGS YES    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv PATH_PREFIXES_EXCLUDED_FROM_HEADER_DEPENDENCIES "/usr/include /usr/local/include /System/Library/Frameworks /System/Library/PrivateFrameworks /Developer/Headers /Developer/SDKs /Developer/Platforms"    setenv PBDEVELOPMENTPLIST_PATH ottawa311.app/pbdevelopment.plist    setenv PFE_FILE_C_DIALECTS objective-c    setenv PKGINFO_FILE_PATH /Users/tajima/projects/ottawa311/build/iphone/build/ottawa311.build/Debug-iphoneos/ottawa311.build/PkgInfo    setenv PKGINFO_PATH ottawa311.app/PkgInfo    setenv PLATFORM_DEVELOPER_APPLICATIONS_DIR /Developer/Platforms/iPhoneOS.platform/Developer/Applications    setenv PLATFORM_DEVELOPER_BIN_DIR /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin    setenv PLATFORM_DEVELOPER_LIBRARY_DIR /Developer/Platforms/iPhoneOS.platform/Developer/Library    setenv PLATFORM_DEVELOPER_SDK_DIR /Developer/Platforms/iPhoneOS.platform/Developer/SDKs    setenv PLATFORM_DEVELOPER_TOOLS_DIR /Developer/Platforms/iPhoneOS.platform/Developer/Tools    setenv PLATFORM_DEVELOPER_USR_DIR /Developer/Platforms/iPhoneOS.platform/Developer/usr    setenv PLATFORM_DIR /Developer/Platforms/iPhoneOS.platform    setenv PLATFORM_NAME iphoneos    setenv PLIST_FILE_OUTPUT_FORMAT binary    setenv PLUGINS_FOLDER_PATH ottawa311.app/PlugIns    setenv PREBINDING NO    setenv PRECOMPS_INCLUDE_HEADERS_FROM_BUILT_PRODUCTS_DIR YES    setenv PRECOMP_DESTINATION_DIR /Users/tajima/projects/ottawa311/build/iphone/build/ottawa311.build/Debug-iphoneos/ottawa311.build/PrefixHeaders    setenv PRESERVE_DEAD_CODE_INITS_AND_TERMS NO    setenv PRIVATE_HEADERS_FOLDER_PATH ottawa311.app/PrivateHeaders    setenv PRODUCT_NAME ottawa311    setenv PRODUCT_SETTINGS_PATH /Users/tajima/projects/ottawa311/build/iphone/Info.plist    setenv PRODUCT_TYPE com.apple.product-type.application    setenv PROFILING_CODE NO    setenv PROJECT ottawa311    setenv PROJECT_DERIVED_FILE_DIR /Users/tajima/projects/ottawa311/build/iphone/build/ottawa311.build/DerivedSources    setenv PROJECT_DIR /Users/tajima/projects/ottawa311/build/iphone    setenv PROJECT_FILE_PATH /Users/tajima/projects/ottawa311/build/iphone/ottawa311.xcodeproj    setenv PROJECT_NAME ottawa311    setenv PROJECT_TEMP_DIR /Users/tajima/projects/ottawa311/build/iphone/build/ottawa311.build    setenv PROVISIONING_PROFILE_REQUIRED YES    setenv PUBLIC_HEADERS_FOLDER_PATH ottawa311.app/Headers    setenv RECURSIVE_SEARCH_PATHS_FOLLOW_SYMLINKS YES    setenv REMOVE_CVS_FROM_RESOURCES YES    setenv REMOVE_SVN_FROM_RESOURCES YES    setenv RESOURCE_RULES_REQUIRED YES    setenv REZ_COLLECTOR_DIR /Users/tajima/projects/ottawa311/build/iphone/build/ottawa311.build/Debug-iphoneos/ottawa311.build/ResourceManagerResources    setenv REZ_OBJECTS_DIR /Users/tajima/projects/ottawa311/build/iphone/build/ottawa311.build/Debug-iphoneos/ottawa311.build/ResourceManagerResources/Objects    setenv REZ_SEARCH_PATHS "\"/Users/tajima/projects/ottawa311/build/iphone/build/Debug-iphoneos\" "    setenv RUN_CLANG_STATIC_ANALYZER NO    setenv SCAN_ALL_SOURCE_FILES_FOR_INCLUDES NO    setenv SCRIPTS_FOLDER_PATH ottawa311.app/Scripts    setenv SCRIPT_INPUT_FILE_COUNT 0    setenv SCRIPT_OUTPUT_FILE_COUNT 0    setenv SDKROOT /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.sdk    setenv SDK_DIR /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.sdk    setenv SDK_NAME iphoneos3.1    setenv SED /usr/bin/sed    setenv SEPARATE_STRIP NO    setenv SEPARATE_SYMBOL_EDIT NO    setenv SET_DIR_MODE_OWNER_GROUP YES    setenv SET_FILE_MODE_OWNER_GROUP NO    setenv SHALLOW_BUNDLE YES    setenv SHARED_DERIVED_FILE_DIR /Users/tajima/projects/ottawa311/build/iphone/build/Debug-iphoneos/DerivedSources    setenv SHARED_FRAMEWORKS_FOLDER_PATH ottawa311.app/SharedFrameworks    setenv SHARED_PRECOMPS_DIR /var/folders/gQ/gQsIVJLSFx42UneCFLhNO++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders    setenv SHARED_SUPPORT_FOLDER_PATH ottawa311.app/SharedSupport    setenv SKIP_INSTALL YES    setenv SOURCE_ROOT /Users/tajima/projects/ottawa311/build/iphone    setenv SRCROOT /Users/tajima/projects/ottawa311/build/iphone    setenv STANDARD_C_PLUS_PLUS_LIBRARY_TYPE dynamic    setenv STRINGS_FILE_OUTPUT_ENCODING binary    setenv STRIP_INSTALLED_PRODUCT YES    setenv STRIP_STYLE all    setenv SYMBOL_REPOSITORY_DIR /Users/tajima/projects/ottawa311/build/iphone/build/ottawa311.build/Debug-iphoneos/ottawa311.build/SymbolRepositories    setenv SYMROOT /Users/tajima/projects/ottawa311/build/iphone/build    setenv SYSTEM_ADMIN_APPS_DIR /Applications/Utilities    setenv SYSTEM_APPS_DIR /Applications    setenv SYSTEM_CORE_SERVICES_DIR /System/Library/CoreServices    setenv SYSTEM_DEMOS_DIR /Applications/Extras    setenv SYSTEM_DEVELOPER_APPS_DIR /Developer/Applications    setenv SYSTEM_DEVELOPER_BIN_DIR /Developer/usr/bin    setenv SYSTEM_DEVELOPER_DEMOS_DIR "/Developer/Applications/Utilities/Built Examples"    setenv SYSTEM_DEVELOPER_DIR /Developer    setenv SYSTEM_DEVELOPER_DOC_DIR "/Developer/ADC Reference Library"    setenv SYSTEM_DEVELOPER_GRAPHICS_TOOLS_DIR "/Developer/Applications/Graphics Tools"    setenv SYSTEM_DEVELOPER_JAVA_TOOLS_DIR "/Developer/Applications/Java Tools"    setenv SYSTEM_DEVELOPER_PERFORMANCE_TOOLS_DIR "/Developer/Applications/Performance Tools"    setenv SYSTEM_DEVELOPER_RELEASENOTES_DIR "/Developer/ADC Reference Library/releasenotes"    setenv SYSTEM_DEVELOPER_TOOLS /Developer/Tools    setenv SYSTEM_DEVELOPER_TOOLS_DOC_DIR "/Developer/ADC Reference Library/documentation/DeveloperTools"    setenv SYSTEM_DEVELOPER_TOOLS_RELEASENOTES_DIR "/Developer/ADC Reference Library/releasenotes/DeveloperTools"    setenv SYSTEM_DEVELOPER_USR_DIR /Developer/usr    setenv SYSTEM_DEVELOPER_UTILITIES_DIR /Developer/Applications/Utilities    setenv SYSTEM_DOCUMENTATION_DIR /Library/Documentation    setenv SYSTEM_LIBRARY_DIR /System/Library    setenv TARGETNAME ottawa311    setenv TARGET_BUILD_DIR /Users/tajima/projects/ottawa311/build/iphone/build/Debug-iphoneos    setenv TARGET_NAME ottawa311    setenv TARGET_TEMP_DIR /Users/tajima/projects/ottawa311/build/iphone/build/ottawa311.build/Debug-iphoneos/ottawa311.build    setenv TEMP_DIR /Users/tajima/projects/ottawa311/build/iphone/build/ottawa311.build/Debug-iphoneos/ottawa311.build    setenv TEMP_FILES_DIR /Users/tajima/projects/ottawa311/build/iphone/build/ottawa311.build/Debug-iphoneos/ottawa311.build    setenv TEMP_FILE_DIR /Users/tajima/projects/ottawa311/build/iphone/build/ottawa311.build/Debug-iphoneos/ottawa311.build    setenv TEMP_ROOT /Users/tajima/projects/ottawa311/build/iphone/build    setenv UID 501    setenv UNLOCALIZED_RESOURCES_FOLDER_PATH ottawa311.app    setenv UNSTRIPPED_PRODUCT NO    setenv USER tajima    setenv USER_APPS_DIR /Users/tajima/Applications    setenv USER_LIBRARY_DIR /Users/tajima/Library    setenv USE_DYNAMIC_NO_PIC YES    setenv USE_HEADERMAP YES    setenv USE_HEADER_SYMLINKS NO    setenv VALID_ARCHS "armv6 armv7"    setenv VERBOSE_PBXCP NO    setenv VERSIONPLIST_PATH ottawa311.app/version.plist    setenv VERSION_INFO_BUILDER tajima    setenv VERSION_INFO_FILE ottawa311_vers.c    setenv VERSION_INFO_STRING "\"@(#)PROGRAM:ottawa311  PROJECT:ottawa311-\""    setenv WEB_SRC_ROOT /Users/tajima/projects/ottawa311/build/iphone/tmp    setenv WRAPPER_EXTENSION app    setenv WRAPPER_NAME ottawa311.app    setenv WRAPPER_SUFFIX .app    setenv XCODE_APP_SUPPORT_DIR /Developer/Library/Xcode    setenv XCODE_VERSION_ACTUAL 0321    setenv XCODE_VERSION_MAJOR 0300    setenv XCODE_VERSION_MINOR 0320    setenv YACC /Developer/usr/bin/yacc    /bin/sh -c /Users/tajima/projects/ottawa311/build/iphone/build/ottawa311.build/Debug-iphoneos/ottawa311.build/Script-B4EA72B50FBC96AA005AA7FB.sh0#
+
+CProcessInfoPlistFile /Users/tajima/projects/ottawa311/build/iphone/build/Debug-iphoneos/ottawa311.app/Info.plist Info.plist
+s290231228.929185
+e290231228.964549
+r1
+xProcessInfoPlistFile
+x/Users/tajima/projects/ottawa311/build/iphone/build/Debug-iphoneos/ottawa311.app/Info.plist
+xInfo.plist
+lSLF07#2@18"Process Info.plist290231228#290231228#0(0"0(0#0#56"/Users/tajima/projects/ottawa311/build/iphone/Info.plist4301200840#588"    cd /Users/tajima/projects/ottawa311/build/iphone    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility Info.plist -genpkginfo /Users/tajima/projects/ottawa311/build/iphone/build/Debug-iphoneos/ottawa311.app/PkgInfo -expandbuildsettings -format binary -platform iphoneos -resourcerulesfile /Users/tajima/projects/ottawa311/build/iphone/build/Debug-iphoneos/ottawa311.app/ResourceRules.plist -o /Users/tajima/projects/ottawa311/build/iphone/build/Debug-iphoneos/ottawa311.app/Info.plist0#
+
+CProcessPCH /var/folders/gQ/gQsIVJLSFx42UneCFLhNO++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ottawa311_Prefix-ezfdqcbfnwejyxdlzmvcrwgwhabr/ottawa311_Prefix.pch.gch ottawa311_Prefix.pch normal armv6 objective-c com.apple.compilers.gcc.4_2
+s290207545.829347
+e290207547.195155
+r1
+xProcessPCH
+x/var/folders/gQ/gQsIVJLSFx42UneCFLhNO++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ottawa311_Prefix-ezfdqcbfnwejyxdlzmvcrwgwhabr/ottawa311_Prefix.pch.gch
+xottawa311_Prefix.pch
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@31"Precompile ottawa311_Prefix.pch290207545#290207547#0(0"0(0#0#66"/Users/tajima/projects/ottawa311/build/iphone/ottawa311_Prefix.pch4301200840#1748"    cd /Users/tajima/projects/ottawa311/build/iphone    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -DDEPLOYTYPE=test -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1 -iquote /Users/tajima/projects/ottawa311/build/iphone/build/ottawa311.build/Debug-iphoneos/ottawa311.build/ottawa311-generated-files.hmap -I/Users/tajima/projects/ottawa311/build/iphone/build/ottawa311.build/Debug-iphoneos/ottawa311.build/ottawa311-own-target-headers.hmap -I/Users/tajima/projects/ottawa311/build/iphone/build/ottawa311.build/Debug-iphoneos/ottawa311.build/ottawa311-all-target-headers.hmap -iquote /Users/tajima/projects/ottawa311/build/iphone/build/ottawa311.build/Debug-iphoneos/ottawa311.build/ottawa311-project-headers.hmap -F/Users/tajima/projects/ottawa311/build/iphone/build/Debug-iphoneos -I/Users/tajima/projects/ottawa311/build/iphone/build/Debug-iphoneos/include -I/Users/tajima/projects/ottawa311/build/iphone/build/ottawa311.build/Debug-iphoneos/ottawa311.build/DerivedSources/armv6 -I/Users/tajima/projects/ottawa311/build/iphone/build/ottawa311.build/Debug-iphoneos/ottawa311.build/DerivedSources -c /Users/tajima/projects/ottawa311/build/iphone/ottawa311_Prefix.pch -o /var/folders/gQ/gQsIVJLSFx42UneCFLhNO++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ottawa311_Prefix-ezfdqcbfnwejyxdlzmvcrwgwhabr/ottawa311_Prefix.pch.gch0#
+
+CProcessProductPackaging "/Users/tajima/Library/MobileDevice/Provisioning Profiles/4E458C66-D8CD-43E2-A3F9-712D09217A3F.mobileprovision" /Users/tajima/projects/ottawa311/build/iphone/build/Debug-iphoneos/ottawa311.app/embedded.mobileprovision
+s290231239.867501
+e290231239.891030
+r1
+xProcessProductPackaging
+x/Users/tajima/Library/MobileDevice/Provisioning Profiles/4E458C66-D8CD-43E2-A3F9-712D09217A3F.mobileprovision
+x/Users/tajima/projects/ottawa311/build/iphone/build/Debug-iphoneos/ottawa311.app/embedded.mobileprovision
+lSLF07#2@195"ProcessProductPackaging "/Users/tajima/Library/MobileDevice/Provisioning Profiles/4E458C66-D8CD-43E2-A3F9-712D09217A3F.mobileprovision" build/Debug-iphoneos/ottawa311.app/embedded.mobileprovision290231239#290231239#0(0"0(0#0#105"/Users/tajima/projects/ottawa311/build/iphone/build/Debug-iphoneos/ottawa311.app/embedded.mobileprovision4301200840#440"    cd /Users/tajima/projects/ottawa311/build/iphone    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    <com.apple.tools.product-pkg-utility> "/Users/tajima/Library/MobileDevice/Provisioning Profiles/4E458C66-D8CD-43E2-A3F9-712D09217A3F.mobileprovision" -o /Users/tajima/projects/ottawa311/build/iphone/build/Debug-iphoneos/ottawa311.app/embedded.mobileprovision0#
+
+CProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.sdk/Entitlements.plist /Users/tajima/projects/ottawa311/build/iphone/build/ottawa311.build/Debug-iphoneos/ottawa311.build/ottawa311.xcent
+s290231239.894924
+e290231239.929988
+r1
+xProcessProductPackaging
+x/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.sdk/Entitlements.plist
+x/Users/tajima/projects/ottawa311/build/iphone/build/ottawa311.build/Debug-iphoneos/ottawa311.build/ottawa311.xcent
+lSLF07#2@181"ProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.sdk/Entitlements.plist build/ottawa311.build/Debug-iphoneos/ottawa311.build/ottawa311.xcent290231239#290231239#0(0"0(0#0#114"/Users/tajima/projects/ottawa311/build/iphone/build/ottawa311.build/Debug-iphoneos/ottawa311.build/ottawa311.xcent4301200840#452"    cd /Users/tajima/projects/ottawa311/build/iphone    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    <com.apple.tools.product-pkg-utility> /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.sdk/Entitlements.plist -entitlements -format xml -o /Users/tajima/projects/ottawa311/build/iphone/build/ottawa311.build/Debug-iphoneos/ottawa311.build/ottawa311.xcent0#
+
+CTouch /Users/tajima/projects/ottawa311/build/iphone/build/Debug-iphoneos/ottawa311.app
+s290231239.891126
+e290231239.894645
+r1
+xTouch
+x/Users/tajima/projects/ottawa311/build/iphone/build/Debug-iphoneos/ottawa311.app
+lSLF07#2@86"Touch /Users/tajima/projects/ottawa311/build/iphone/build/Debug-iphoneos/ottawa311.app290231239#290231239#0(0"0(0#0#0"4301200840#280"    cd /Users/tajima/projects/ottawa311/build/iphone    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/tajima/projects/ottawa311/build/iphone/build/Debug-iphoneos/ottawa311.app0#
+
