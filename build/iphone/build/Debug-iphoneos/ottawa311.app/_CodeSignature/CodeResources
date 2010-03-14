@@ -14,7 +14,7 @@
 		</data>
 		<key>MainWindow.nib</key>
 		<data>
-		BG24OKvn63CMtzj6NgFwOHGVdqY=
+		j5YFlqwMY6Gp3/XpHYoOAYFg22k=
 		</data>
 		<key>PkgInfo</key>
 		<data>
@@ -26,7 +26,7 @@
 		</data>
 		<key>dependencies.map</key>
 		<data>
-		ZoyGZuM75W2wbkdzKbtVR2uqdq8=
+		ZodvsF/RdMweYv9pOrrhk9eOJag=
 		</data>
 		<key>embedded.mobileprovision</key>
 		<data>
@@ -35,6 +35,18 @@
 		<key>images/camera.png</key>
 		<data>
 		hZgbGWq9W6FEHUyVMeZhzDPJ/H8=
+		</data>
+		<key>images/eye.png</key>
+		<data>
+		YYtzF1ohl4Viuc7rh80Tc3qJBNU=
+		</data>
+		<key>images/gear.png</key>
+		<data>
+		ztK0qCZcWTJIDtYWe92/LsuJo9A=
+		</data>
+		<key>images/gear2.png</key>
+		<data>
+		1JcG3eVyj5uLmRFtHne4BFyXto4=
 		</data>
 		<key>images/logo.png</key>
 		<data>
@@ -50,7 +62,7 @@
 		</data>
 		<key>psd/header.psd</key>
 		<data>
-		L1Fgw5Ty5+VSK8HCJabEX3fckGU=
+		cowen6sH5/HBJ8o/KImrwzPf+4Q=
 		</data>
 		<key>psd/splash.psd</key>
 		<data>
