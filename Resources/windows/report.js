@@ -1,4 +1,7 @@
-Titanium.API.info('building report views');
+/* -------------------------------------------------------------------------------------------
+ * New Report View
+ * -------------------------------------------------------------------------------------------
+ */
 
 var new_report = Titanium.UI.createView({
   size: {width: 320, height: 600 }
@@ -67,13 +70,14 @@ cameraBtn.addEventListener("click", function(e) {
 
 new_report.add(cameraBtn);
 new_report.add(galleryBtn);
-
 Titanium.UI.currentWindow.add(new_report);
 
 
-//
-// createReport window
-//
+/* -------------------------------------------------------------------------------------------
+ * Create Report View
+ * -------------------------------------------------------------------------------------------
+ */
+
 var create_report = Titanium.UI.createWindow({
   title: 'Submit Report'
 });
@@ -96,6 +100,7 @@ var preview = Titanium.UI.createImageView({
 // listener when photo is taken
 Titanium.App.addEventListener("photoChosen", function(e) {
   Titanium.API.debug("got photoChosen event");
+  getCurrentLocation();
   preview.image = Titanium.App.report_photo;
   Titanium.UI.currentTab.open(create_report,{animated:true});
 });
@@ -126,6 +131,7 @@ var descField = Titanium.UI.createTextArea({
 
 descField.addEventListener('return', function() {
   descField.blur();
+  Titanium.App.report_description = descField.value;
 });
 
 //
@@ -138,11 +144,11 @@ var categoryField = Titanium.UI.createButton({
   title: 'Select Category'
 });
 
-
 var categoryPicker = Titanium.UI.createPicker({
   bottom: 0,
   visible: false
 });
+
 var data = [
   Titanium.UI.createPickerRow({title: 'Graffiti', custom_item: "5"}),
   Titanium.UI.createPickerRow({title: 'Graffiti on Private Property', custom_item: "6"}),
@@ -156,16 +162,13 @@ categoryPicker.add(data);
 categoryPicker.selectionIndicator = true;
 
 categoryField.addEventListener('click', function(){
-  Titanium.API.info('got category field');
   categoryPicker.show();
-  
 });
 
 categoryPicker.addEventListener('change', function(e){
   categoryField.title = e.row.title;
   Titanium.App.report_category = e.row.custom_item;
   categoryPicker.hide();
-  Titanium.API.info("report_category is now "+Titanium.App.report_category);
   Titanium.App.fireEvent("categoryChosen");
 });
 
@@ -181,8 +184,13 @@ var submitBtn = Titanium.UI.createButton({
   title: 'Submit Report'
 });
 
-submitBtn.addEventListener('categoryChosen', function(e){
-  // enable createButton
+// submit button listener
+submitBtn.addEventListener('click', function(e){
+  submitReport();
+});
+
+// listener to enable submit button
+Titanium.App.addEventListener('categoryChosen', function(e){
   submitBtn.enabled = true;
   submitBtn.opacity = 1;
 });
@@ -201,4 +209,66 @@ scrollview.addEventListener('click', function(e) {
 });
 
 
+//
+// Get current location
+//
+function getCurrentLocation() {
+  Titanium.Geolocation.accuracy = Titanium.Geolocation.ACCURACY_BEST;
+  Titanium.Geolocation.getCurrentPosition(function(e) {
+    Titanium.API.info('got current location');
+    if (e.error) {
+      Titanium.API.info('Some error');
+      // do something if we can't get location
+    } else {
+      Titanium.API.info('got coords');
+      Titanium.App.curr_lng = e.coords.longitude;
+      Titanium.App.curr_lat = e.coords.latitude;
+      Titanium.App.curr_acc = e.coords.accuracy;
+      Titanium.API.info('lat: '+ Titanium.App.curr_lat + " Lng: "+ Titanium.App.curr_lng);
+    }
+	});  
+};
+
+//
+// Submitting the report
+// 
+
+function submitReport() {
+  Titanium.API.info("submitting report");
+  var xhr = Titanium.Network.createHTTPClient();
+  
+  // response from submit
+  xhr.onload = function(e) {
+    Titanium.App.fireEvent('reportSubmitted');
+  };
+	
+  // create payload
+  request = {
+    title:       Titanium.App.report_category + " Report from iPhone user",
+    description: Titanium.App.report_desc,
+    category:    Titanium.App.report_category,
+    lat:         Titanium.App.curr_lat,
+    lng:         Titanium.App.curr_lng
+  };
+  
+  Titanium.API.info("title: "+request.title);
+  Titanium.API.info("desc: "+request.description);
+  Titanium.API.info("lat: "+request.lat);
+  Titanium.API.info("lng: "+request.lng);
+  
+  xhr.open('POST', Titanium.App.remote_url);
+  xhr.send(request);
+}
+
+/* -------------------------------------------------------------------------------------------
+ * Submit Report View
+ * -------------------------------------------------------------------------------------------
+ */
+
+
+
+Titanium.App.addEventListener('reportSubmitted', function(e){
+  var win = Titanium.UI.createWindow();
+  
+});
 

@@ -1,9 +1,14 @@
 Titanium.UI.setBackgroundColor('#000');
- 
+
+Titanium.App.remote_url      = 'http://ottawa311.heroku.com/reports'; 
 Titanium.App.report_photo    = null;
 Titanium.App.report_thumb    = null;
 Titanium.App.report_category = null;
 Titanium.App.report_desc     = null;
+Titanium.App.curr_lat        = null;
+Titanium.App.curr_lng        = null;
+Titanium.App.curr_acc        = null;
+
 
 var tabGroup = Titanium.UI.createTabGroup();
 
