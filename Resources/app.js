@@ -1,4 +1,4 @@
-Titanium.UI.setBackgroundColor('#000');
+Titanium.UI.setBackgroundColor('#fff');
 
 Titanium.App.remote_url      = 'http://ottawa311.heroku.com/reports'; 
 Titanium.App.report_photo    = null;
